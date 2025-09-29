@@ -169,19 +169,17 @@ const PassportAgentinChennai = () => {
             <Helmet>
                 <title>Get Your Passport Fast | Passport Agent in Chennai
                 </title>
-                <meta name="description" content="Need your passport fast? Our passport agency in Bangalore provides expert assistance for new applications, renewals and corrections to ensure a smooth process.
-"/>
+                <meta name="description" content="Need your passport fast? Our passport agency in Chennai provides expert assistance for new applications, renewals and corrections to ensure a smooth process."/>
                 <meta name="keywords" content="passport, get passport fast, passport application, passport services, passport assistance, hassle-free passport, quick passport, passport team, passport solutions, secure passport, professional passport services, efficient passport application" />
-                <link rel="canonical" href="https://www.makemydocuments.com/passport-agent-in-chennai
-" />
+                <link rel="canonical" href="https://www.makemydocuments.com/passport-agent-in-chennai" />
                 <meta name="rating" CONTENT="General" />
                 <meta name="revisit-after" CONTENT="2 days" />
                 <meta name="robots" content=" ALL, index, follow" />
                 <meta name="distribution" content="Global" />
                 <meta name="rating" content="Safe For All" />
                 <meta name="language" content="English" />
-                <meta http-equiv="window-target" content="_top" />
-                <meta http-equiv="pics-label" content="for all ages" />
+                <meta httpEquiv="window-target" content="_top" />
+                <meta httpEquiv="pics-label" content="for all ages" />
                 <meta name="rating" content="general" />
                 <meta content="All, FOLLOW" name="GOOGLEBOTS" />
                 <meta content="All, FOLLOW" name="YAHOOBOTS" />
@@ -362,7 +360,6 @@ const PassportAgentinChennai = () => {
                 {
                   "@type": "Question",
                   "name": "Is police verification mandatory for all passports?",
-          "acceptedAnswer",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text":"Yes, except in some Tatkal cases where verification is done after issuance."
@@ -403,7 +400,7 @@ const PassportAgentinChennai = () => {
                 {
                   "@type": "Question",
                   "name": "Is a passport mandatory for international travel?",
-          "acceptedAnswer",
+        
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Yes, a valid passport is required to travel outside India."
@@ -420,7 +417,7 @@ const PassportAgentinChennai = () => {
                 {
                   "@type": "Question",
                   "name": "Is a passport required for domestic air travel?",
-          "acceptedAnswer",
+        
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "No, government-issued IDs like Aadhaar or PAN are enough for domestic travel."
@@ -2531,7 +2528,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                                 <span style={{ fontSize: '16px', fontWeight: 'bold' }}>Step 1: Schedule Your Appointment</span>
 
                                 <p style={{ textAlign: 'left' }}>
-                                    The first step is to schedule an appointment through the official Passport Seva Portal. Choose the date and time for your visit to the Passport Seva Kendra (PSK) in Bangalore. Make sure to select the appropriate category of service (normal, Tatkal, etc.) based on your needs.</p>
+                                    The first step is to schedule an appointment through the official Passport Seva Portal. Choose the date and time for your visit to the Passport Seva Kendra (PSK) in Chennai. Make sure to select the appropriate category of service (normal, Tatkal, etc.) based on your needs.</p>
 
                                 <span style={{ fontSize: '16px', fontWeight: 'bold' }}>Step 2: Submit Your Documents
                                 </span>
