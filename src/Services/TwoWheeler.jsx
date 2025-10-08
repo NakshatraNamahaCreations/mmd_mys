@@ -1476,6 +1476,10 @@ answer: (
 2 wheeler insurance, bike insurance renewal, scooter insurance, sooty insurance,two wheeler insurance renewal, motorcycle bike insurance, bike insurance online,
 two wheeler insurance online, bike insurance renewal online, how to get bike insurance online, how to apply bike insurance online "/>
 <meta name="author" content="https://www.makemydocuments.com/two-wheeler-insurance"/>
+ <link
+                    rel="canonical"
+                    href="https://www.makemydocuments.com/two-wheeler-insurance"
+                />
 	<meta name="rating" CONTENT="General"/>
 	<meta name="revisit-after" CONTENT="2 days"/>
 	<meta name="robots" content=" ALL, index, follow"/>

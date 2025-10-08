@@ -298,7 +298,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           <option value="Passport">Passport</option>
           <option value="Senior Citizen Card">Senior Citizen Card</option>
           <option value="Police Verification Certificate">Police verification certificate</option>
-          <option value="Food License (FSSAI)">Food License (FSSAI)</option>
+          {/* <option value="Food License (FSSAI)">Food License (FSSAI)</option> */}
           <option value="MSME Certification">MSME Certification</option>
           <option value="Police Clearance Certificate">Police clearance certificate</option>
         </select>

@@ -171,7 +171,7 @@ const SingaporeVisaIndians = () => {
                 />
                 <link
                     rel="canonical"
-                    href="https://www.makemydocuments.com/singapore-visa-for-indians"
+                    href="https://www.makemydocuments.com/singapore-visa"
                 />
                 <meta name="rating" CONTENT="General" />
                 <meta name="revisit-after" CONTENT="2 days" />
@@ -876,7 +876,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                                             <ul style={{ listStyleType: "disc", paddingLeft: "20px", }}>
                                                 <li><strong style={{ color: '#ff9800' }}>Rs. 3,500/-</strong> For (Normal Application)
                                                 </li>
-                                                <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This mount will a be adjusted in total bill)</li>
+                                                <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This amount will a be adjusted in total bill)</li>
 
                                             </ul>
                                         </div>

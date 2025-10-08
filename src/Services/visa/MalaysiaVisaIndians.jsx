@@ -862,7 +862,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                                             <ul style={{ listStyleType: "disc", paddingLeft: "20px", }}>
                                                 <li><strong style={{ color: '#ff9800' }}>Rs. 999/-</strong> For (Normal Application)
                                                 </li>
-                                                <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This mount will a be adjusted in total bill)</li>
+                                                <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This amount will a be adjusted in total bill)</li>
 
                                             </ul>
                                         </div>

@@ -1619,6 +1619,11 @@ const FourWheeler = () => {
           name="author"
           content="https://www.makemydocuments.com/car-insurance"
         />
+          <link
+                    rel="canonical"
+                    href="https://www.makemydocuments.com/car-insurance"
+                />
+
         <meta name="rating" CONTENT="General" />
         <meta name="revisit-after" CONTENT="2 days" />
         <meta name="robots" content=" ALL, index, follow" />

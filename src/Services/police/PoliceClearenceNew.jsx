@@ -379,18 +379,47 @@ const PoliceClearenceNew = () => {
                         fontSize: "14px",
                         color: "#000000",
                         fontWeight: "bold",
+                       
                       }}
                     >
                       99% Delivered on time
                     </span>
                   </div>
 
+                           <div style={{ flex: 1 , marginTop:"17px"}}>
+                      <p
+                        style={{
+                          fontSize: "14px",
+                          marginBottom: "5px",
+                          color: "#333",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Processing time
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: "bold",
+                          color: "#333",
+                          margin: 0,
+                          backgroundColor: "#e3f2fd",
+                          padding: "6px 10px",
+                          borderRadius: "6px",
+                          whiteSpace: "nowrap",
+                          display: "inline-block",
+                        }}
+                      >
+                          15-20 working days 
+                      </p>
+                   
+                    </div>
                   {/* Visa Details */}
                   <div
                     style={{
                       display: "flex",
                       justifyContent: "space-between",
-                      marginTop: "20px",
+                      marginTop: "15px",
                       width: "100%",
                       maxWidth: "320px",
 
@@ -519,6 +548,32 @@ const PoliceClearenceNew = () => {
                     <span style={{ marginLeft: "6px" }} className="banner-text2">
                       99% Delivered on time
                     </span>
+                    
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      fontSize: "10px",
+                    }}
+                  >
+                    <div>
+                      <p
+                        style={{
+                          margin: 0,
+                          fontWeight: "bold",
+                          fontSize: "10px",
+                        }}
+                      >
+                        Processing time
+                      </p>
+                      <p style={{ margin: 0, fontSize: "10px" }}>
+                       15-20 working days 
+                      </p>
+                      
+                  
+                    </div>
+        
                   </div>
                 </div>
                  

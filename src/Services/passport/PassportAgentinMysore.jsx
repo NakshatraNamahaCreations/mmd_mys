@@ -1469,7 +1469,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                           </strong>{" "}
                           as booking fee. Need to pay while submitting online
                           form <br />
-                          (This mount will a be adjusted in total bill)
+                          (This amount will a be adjusted in total bill)
                         </li>
                       </ul>
                     </div>

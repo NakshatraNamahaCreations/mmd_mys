@@ -1559,6 +1559,10 @@ const TwoWheeler = () => {
           name="author"
           content="https://www.makemydocuments.com/health-insurance"
         />
+           <link
+                    rel="canonical"
+                    href="https://www.makemydocuments.com/health-insurance"
+                />
         <meta name="rating" content="General" />
         <meta name="revisit-after" content="2 days" />
         <meta name="robots" content="ALL, index, follow" />

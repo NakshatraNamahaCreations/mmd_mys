@@ -163,7 +163,7 @@ const PoliceVerificationNew = () => {
             <title> Police Verification Certificate | Apply Online</title>
         <meta name="description" content="Apply for your  Police Verification Certificate (PVC) online with Make My Documents. Easy process via Seva Sindhu, documents upload & fast delivery."/>
         <meta name="keywords" content="police verification certificate, PVC application, apply PVC online, police verification online, PVC application India, PVC certificate for employment, police verification for rental, police verification agents near me, PVC for immigration, police verification Bangalore, online police verification service, PVC application process, police verification documents required, how to apply for police verification certificate, police clearance certificate, PVC for job application, police verification certificate India, apply PVC online India"/>
-        <link rel="canonical" href="https://www.makemydocuments.com/police-verification"/>
+        <link rel="canonical" href="https://www.makemydocuments.com/policeverification"/>
         <meta name="rating" content="General"/>
         <meta name="revisit-after" content="2 days"/>
         <meta name="robots" content="ALL, index, follow"/>
@@ -385,7 +385,35 @@ const PoliceVerificationNew = () => {
                       99% Delivered on time
                     </span>
                   </div>
-
+                      
+                           <div style={{ flex: 1 , marginTop:"17px"}}>
+                      <p
+                        style={{
+                          fontSize: "14px",
+                          marginBottom: "5px",
+                          color: "#333",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Processing time
+                      </p>
+                      <p
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: "bold",
+                          color: "#333",
+                          margin: 0,
+                          backgroundColor: "#e3f2fd",
+                          padding: "6px 10px",
+                          borderRadius: "6px",
+                          whiteSpace: "nowrap",
+                          display: "inline-block",
+                        }}
+                      >
+                          10-15 working days 
+                      </p>
+                   
+                    </div>
                   {/* Visa Details */}
                   <div
                     style={{
@@ -493,6 +521,31 @@ const PoliceVerificationNew = () => {
                     </span>
                   </div>
                       </div>
+                               <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      fontSize: "10px",
+                    }}
+                  >
+                    <div>
+                      <p
+                        style={{
+                          margin: 0,
+                          fontWeight: "bold",
+                          fontSize: "10px",
+                        }}
+                      >
+                        Processing time
+                      </p>
+                      <p style={{ margin: 0, fontSize: "10px" }}>
+                       10-15 working days 
+                      </p>
+                      
+                  
+                    </div>
+        
+                  </div>
                   <div
                     style={{
                       display: "flex",

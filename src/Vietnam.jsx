@@ -1070,7 +1070,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                          <li>Vietnam 30 Days Multiple Entry E-Visa <strong style={{ color: '#ff9800' }}>Rs. 12,492/-</strong> </li>
                         <li>Vietnam 90 Days Multiple Entry E-Visa  <strong style={{ color: '#ff9800' }}>Rs 14,573/-</strong>
                         </li>
-                        <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This mount will a be adjusted in total bill)</li>
+                        <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This amount will a be adjusted in total bill)</li>
 
                       </ul>
                     </div>

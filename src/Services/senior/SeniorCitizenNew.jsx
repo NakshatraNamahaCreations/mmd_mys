@@ -442,7 +442,7 @@ const SeniorCitizenNew = () => {
                           display: "inline-block",
                         }}
                       >
-                          25-30 working days (Normal)
+                          25-30 working days 
                       </p>
                    
                     </div>
@@ -558,32 +558,12 @@ const SeniorCitizenNew = () => {
                         Processing time
                       </p>
                       <p style={{ margin: 0, fontSize: "10px" }}>
-                       25-30 working days (Normal)
+                       25-30 working days 
                       </p>
                       
                   
                     </div>
-                    {/* <div>
-                      <p
-                        style={{
-                          margin: 0,
-                          fontWeight: "bold",
-                          fontSize: "10px",
-                        }}
-                      >
-                        Starting from
-                      </p>
-                      <p
-                        style={{
-                          margin: 0,
-                          color: "#ffc107",
-                          fontWeight: "bold",
-                          fontSize: "10px",
-                        }}
-                      >
-                        ₹2,499/-
-                      </p>
-                    </div> */}
+        
                   </div>
                 </div>
               </div>

@@ -1250,7 +1250,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                                                 </li>
                                                 <li><strong style={{ color: '#ff9800' }}>Rs. 4,499/-</strong>  For (Tatkal Application)
                                                 </li>
-                                                <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This mount will a be adjusted in total bill)</li>
+                                                <li> <strong style={{ color: '#ff9800' }}>Rs. 99/-</strong> as booking fee. Need to pay while submitting online form <br />(This amount will a be adjusted in total bill)</li>
 
                                             </ul>
                                         </div>
