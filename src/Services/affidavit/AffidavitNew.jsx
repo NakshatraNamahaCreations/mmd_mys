@@ -885,6 +885,15 @@ const stateData = [
   },
 ];
 
+// make lowercase, remove punctuation, collapse spaces -> hyphens
+const toSlug = (s) =>
+  s.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
+// find the original (title-case) item from a slug
+const fromSlug = (slug) =>
+  validAffidavits.find((a) => toSlug(a) === String(slug || "").toLowerCase());
+
+
 const validAffidavits = [
   "Name-Change-Affidavit-(Annexture-E)",
   "Name-Change-Affidavit-for-Minor",
@@ -994,6 +1003,7 @@ const AffidavitNew = () => {
   const stopStickyRef = useRef(null);
  const [loading, setLoading] = useState(true);
    const [visibleCount] = useState(3);
+const originalAffidavit = fromSlug(selectedAffidavit); // null if invalid
 
   const handleClick = (service) => {
     setActive(service.name);
@@ -1035,15 +1045,13 @@ const AffidavitNew = () => {
     }
   }, []);
 
-  const handleAffidavitChange = (e) => {
-    const selected = e.target.value;
-    if (selected) {
-      const formattedAffidavit = selected.replace(/\s+/g, "-");
-      const newUrl = `${window.location.origin}/affidavits/${formattedAffidavit}`;
-      window.history.pushState(null, "", newUrl);
-      navigate(`/affidavits/${formattedAffidavit}`);
-    }
-  };
+const handleAffidavitChange = (e) => {
+  const original = e.target.value;
+  if (original) {
+    navigate(`/affidavits/${toSlug(original)}`);
+  }
+};
+
 
 
   useEffect(() => {
@@ -1063,13 +1071,12 @@ const AffidavitNew = () => {
     }
   };
 
-  useEffect(() => {
-    // Validate selected affidavit from URL
-    if (selectedAffidavit && !validAffidavits.includes(selectedAffidavit)) {
-      // Redirect to default if affidavit is invalid
-      navigate("/affidavits");
-    }
-  }, [selectedAffidavit, navigate]);
+useEffect(() => {
+  if (selectedAffidavit && !fromSlug(selectedAffidavit)) {
+    navigate("/affidavits");
+  }
+}, [selectedAffidavit, navigate]);
+
 
 
   const closePopup = () => {
@@ -1917,7 +1924,7 @@ const AffidavitNew = () => {
               <select
                 id="selectAffidavit"
                 onChange={handleAffidavitChange}
-                value={selectedAffidavit}
+                value={fromSlug(selectedAffidavit) || ""}
                 style={{
                   width: "50%",
                   padding: "12px",
@@ -1932,16 +1939,21 @@ const AffidavitNew = () => {
                   backgroundSize: "16px",
                 }}
               >
-                <option value="">Choose</option>
-                {validAffidavits.map((affidavit) => (
-                  <option
-                    key={affidavit}
-                    value={affidavit.replace(/-/g, " ")} // Show readable format
-                  >
-                    {affidavit.replace(/-/g, " ")}
-                  </option>
-                ))}
-              </select>
+
+  <option value="">Choose</option>
+  {validAffidavits.map((affidavit) => (
+    <option key={affidavit} value={affidavit}>
+      {affidavit
+        .replace(/-/g, " ")   // makes it more readable
+        .replace(/\(/g, "(")  // keeps parentheses clean
+        .replace(/\)/g, ")")  // ensures closing parenthesis is visible
+        .replace(/\s+/g, " ") // removes double spaces
+      }
+    </option>
+  ))}
+</select>
+
+
               {selectedAffidavit === "" && (
                 <div style={{ color: "red", marginTop: "5px" }}>
                   Please select an affidavit.
@@ -1952,7 +1964,7 @@ const AffidavitNew = () => {
           )}
 
           {/* Conditional Rendering Based on Selection */}
-          {selectedAffidavit && validAffidavits.includes(selectedAffidavit) && (
+          {!!originalAffidavit && (
             <div
               className="content-section"
               style={{
@@ -2058,7 +2070,7 @@ const AffidavitNew = () => {
           )}
 
           {/* mobile view */}
-          {selectedAffidavit && validAffidavits.includes(selectedAffidavit) && (
+          {!!originalAffidavit && (
             <div className="status-container d-block d-lg-none" style={{ marginTop: "-70%" }}>
               {/* How It Works Section */}
               <div className="status-section how-it-works">
@@ -2883,7 +2895,15 @@ const AffidavitNew = () => {
                           >
                             Step 1: Register Online 
                           </h3>
+                           <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
                          
+                          </p>
                         </div>
                       </div>
                       <div
@@ -2912,7 +2932,15 @@ const AffidavitNew = () => {
                           >
                             Step 2: Drafting
                           </h3>
-                        
+                         <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                         
+                          </p>
                         </div>
                       </div>
                       <div

@@ -352,7 +352,7 @@ const PassportLandingPage = () => {
                       margin: 0,
                     }}
                   >
-                    Apply Passport Online with Professional Assistance
+                    Apply Passport Online 
                   </h1>
 
                   {/* Approval Rate Badge */}
@@ -541,7 +541,7 @@ const PassportLandingPage = () => {
                       marginBottom: "8px",
                     }}
                   >
-                   Apply Passport Online with Professional Assistance
+                   Apply Passport Online 
                   </p>
 
                   <div
@@ -839,7 +839,7 @@ const PassportLandingPage = () => {
 
                   <br />
                   {/* How It Works Section (Non-scrollable) */}
-                  <div
+            <div
                     style={{
                       marginTop: "20px",
                       paddingLeft: "10px",
@@ -896,9 +896,18 @@ const PassportLandingPage = () => {
                               color: "#333",
                             }}
                           >
-                            Step 1: Register Online & Make Payment
+                            Step 1: Register Online
                           </h3>
-                         
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            Fill all the basic details in the application on our
+                            secure portal.
+                          </p>
                         </div>
                       </div>
                       <div
@@ -927,7 +936,15 @@ const PassportLandingPage = () => {
                           >
                             Step 2: Upload Documents
                           </h3>
-                        
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            Submit the required documents via WhatsApp or email.
+                          </p>
                         </div>
                       </div>
                       <div
@@ -954,9 +971,19 @@ const PassportLandingPage = () => {
                               color: "#333",
                             }}
                           >
-                            Step 3: Get Appointment
+                            Step 3: Documents Verification
                           </h3>
-                     
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                              marginBottom: "10px",
+                            }}
+                          >
+                            Our experts review your documents for accuracy and
+                            compliance.
+                          </p>
                         </div>
                       </div>
                       <div
@@ -983,9 +1010,18 @@ const PassportLandingPage = () => {
                               color: "#333",
                             }}
                           >
-                            Step 4: Visit PSK
+                            Step 4: Payment
                           </h3>
-                         
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            Make a secure online payment to proceed with the
+                            application service.
+                          </p>
                         </div>
                       </div>
                       <div
@@ -1012,13 +1048,134 @@ const PassportLandingPage = () => {
                               color: "#333",
                             }}
                           >
-                            Step 5: Get Delivered
+                            Step 5: Get Appointment
                           </h3>
-                         
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            We schedule your Passport Seva Kendra (PSK)
+                            appointment as per your preferred date and time.
+                          </p>
                         </div>
                       </div>
-                  
-                      
+                      <div
+                        style={{ position: "relative", marginBottom: "40px" }}
+                      >
+                        <div
+                          style={{
+                            position: "absolute",
+                            left: "-33px",
+                            top: "5px",
+                            width: "16px",
+                            height: "16px",
+                            backgroundColor: "#1976D2",
+                            borderRadius: "50%",
+                            border: "2px solid #fff",
+                          }}
+                        />
+                        <div>
+                          <h3
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "bold",
+                              marginBottom: "5px",
+                              color: "#333",
+                            }}
+                          >
+                            Step 6: Visit PSK
+                          </h3>
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            Visit the designated PSK center with your original
+                            documents for biometric and verification.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        style={{ position: "relative", marginBottom: "40px" }}
+                      >
+                        <div
+                          style={{
+                            position: "absolute",
+                            left: "-33px",
+                            top: "5px",
+                            width: "16px",
+                            height: "16px",
+                            backgroundColor: "#1976D2",
+                            borderRadius: "50%",
+                            border: "2px solid #fff",
+                          }}
+                        />
+                        <div>
+                          <h3
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "bold",
+                              marginBottom: "5px",
+                              color: "#333",
+                            }}
+                          >
+                            Step 7: Police Verification
+                          </h3>
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            The local police department conducts a verification
+                            at your provided address.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        style={{ position: "relative", marginBottom: "20px" }}
+                      >
+                        <div
+                          style={{
+                            position: "absolute",
+                            left: "-33px",
+                            top: "5px",
+                            width: "16px",
+                            height: "16px",
+                            backgroundColor: "#1976D2",
+                            borderRadius: "50%",
+                            border: "2px solid #fff",
+                          }}
+                        />
+                        <div>
+                          <h3
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "bold",
+                              marginBottom: "5px",
+                              color: "#333",
+                            }}
+                          >
+                            Step 8: Get Delivered
+                          </h3>
+                          <p
+                            style={{
+                              fontSize: "14px",
+                              color: "#555",
+                              margin: 0,
+                            }}
+                          >
+                            Once approved, your passport is printed and
+                            delivered to your doorstep.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   
