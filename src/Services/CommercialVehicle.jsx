@@ -1055,7 +1055,7 @@ const CommercialVehicle = () => {
   // Function to close the popup and revert the URL
   const closePopup = () => {
     setShowPopup(false);
-    navigate("/commercial-insurance-instruction"); // Revert the URL
+    navigate("/commercial-vehicle-insurance"); // Revert the URL
     setCurrentStep(1);
     setIsCompleted(false);
   };
@@ -1537,13 +1537,13 @@ const CommercialVehicle = () => {
         />
         <meta
           name="keywords"
-          content="commercial vehicle insurance, online commercial vehicle insurance, truck insurance, fleet insurance, taxi insurance, goods carrier insurance, bus insurance, commercial auto insurance, heavy vehicle insurance, buy commercial vehicle insurance online, renew commercial vehicle insurance, third-party vehicle insurance, comprehensive vehicle insurance, affordable commercial vehicle insurance, apply for commercial vehicle insurance"
+          content="commercial vehicle insurance, commercial vehicle insurance cost, commercial vehicle insurance online, commercial vehicle insurance compare, commercial vehicle insurance renewal, commercial motor insurance, Auto-Rickshaw insurance, E-Rickshaw Insurance"
         />
         <meta
           name="author"
           content="https://www.makemydocuments.com/commercial-vehicle-insurance"
         />
-         <link rel="canonical" href="https://www.makemydocuments.com/commercial-insurance-instruction" />
+         <link rel="canonical" href="https://www.makemydocuments.com/commercial-vehicle-insurance" />
         <meta name="rating" content="General" />
         <meta name="revisit-after" content="2 days" />
         <meta name="robots" content="ALL, index, follow" />

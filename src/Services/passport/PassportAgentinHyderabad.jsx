@@ -2250,75 +2250,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                                 width: "80%",
                             }}
                         >
-                            <h4
-                                style={{
-                                    textAlign: "center",
-                                    fontWeight: "bold",
-                                    color: "#007BFF",
-                                    marginBottom: "20px",
-                                }}
-                            >
-                                FAQs
-                            </h4>
-                            <p
-                                style={{
-                                    textAlign: "center",
-                                    fontWeight: "500",
-                                    marginBottom: "30px",
-                                }}
-                            >
-                                Need help? Contact us for any queries related to us
-                            </p>
-                            <div className="faq-list">
-                                {faqs.map((faq, index) => (
-                                    <div
-                                        key={index}
-                                        className="faq-item"
-                                        style={{ marginBottom: "10px" }}
-                                    >
-                                        <button
-                                            style={{
-                                                display: "flex",
-                                                justifyContent: "space-between",
-                                                alignItems: "center",
-                                                width: "100%",
-                                                padding: "10px 20px",
-                                                border: "1px solid #007BFF",
-                                                borderRadius: "5px",
-                                                background: "#F9F9F9",
-                                                fontWeight: "500",
-                                                cursor: "pointer",
-                                            }}
-                                            onClick={() => handleToggle(index)}
-                                        >
-                                            <h5 style={{ fontSize: '16px' }}>{faq.question}</h5>
-                                            <span
-                                                style={{
-                                                    fontWeight: "bold",
-                                                    fontSize: "16px",
-                                                    marginLeft: "10px",
-                                                }}
-                                            >
-                                                {openIndex === index ? "▲" : "▼"}
-                                            </span>
-                                        </button>
-                                        {openIndex === index && (
-                                            <div
-                                                style={{
-                                                    marginTop: "10px",
-                                                    padding: "10px 20px",
-                                                    background: "#F3F3F3",
-                                                    borderRadius: "5px",
-                                                    color: "#333",
-                                                }}
-                                            >
-                                                {faq.answer}
-                                            </div>
-                                        )}
-                                    </div>
-                                ))}
-                            </div>
-                            <br></br>
+                         
                             <>
                                 <h2 className="faq-tag-title-h3">
                                     <strong>Passport Agent in Hyderabad
@@ -2465,6 +2397,75 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                                 {/* <h2 style={{fontSize:'16px'}}> Our Customers Testimonials</h2> */}
                                 <br />
                             </>
+                               <h4
+                                style={{
+                                    textAlign: "center",
+                                    fontWeight: "bold",
+                                    color: "#007BFF",
+                                    marginBottom: "20px",
+                                }}
+                            >
+                                FAQs
+                            </h4>
+                            <p
+                                style={{
+                                    textAlign: "center",
+                                    fontWeight: "500",
+                                    marginBottom: "30px",
+                                }}
+                            >
+                                Need help? Contact us for any queries related to us
+                            </p>
+                            <div className="faq-list">
+                                {faqs.map((faq, index) => (
+                                    <div
+                                        key={index}
+                                        className="faq-item"
+                                        style={{ marginBottom: "10px" }}
+                                    >
+                                        <button
+                                            style={{
+                                                display: "flex",
+                                                justifyContent: "space-between",
+                                                alignItems: "center",
+                                                width: "100%",
+                                                padding: "10px 20px",
+                                                border: "1px solid #007BFF",
+                                                borderRadius: "5px",
+                                                background: "#F9F9F9",
+                                                fontWeight: "500",
+                                                cursor: "pointer",
+                                            }}
+                                            onClick={() => handleToggle(index)}
+                                        >
+                                            <h5 style={{ fontSize: '16px' }}>{faq.question}</h5>
+                                            <span
+                                                style={{
+                                                    fontWeight: "bold",
+                                                    fontSize: "16px",
+                                                    marginLeft: "10px",
+                                                }}
+                                            >
+                                                {openIndex === index ? "▲" : "▼"}
+                                            </span>
+                                        </button>
+                                        {openIndex === index && (
+                                            <div
+                                                style={{
+                                                    marginTop: "10px",
+                                                    padding: "10px 20px",
+                                                    background: "#F3F3F3",
+                                                    borderRadius: "5px",
+                                                    color: "#333",
+                                                }}
+                                            >
+                                                {faq.answer}
+                                            </div>
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
+                            <br></br>
                         </div>
 
                         <br />

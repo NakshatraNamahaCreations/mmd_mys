@@ -152,7 +152,7 @@ const App = () => {
   const is404Page = ![
     "/", "/terms-conditions", "/privacy-policy", "/disclaimer", "/insurance",
     "/two-wheeler-insurance", "/two-wheeler-insurance-info", "/car-insurance",
-    "/car-insurance-info", "/commercial-insurance-instruction", "/commercial-insurance",
+    "/car-insurance-info", "/commercial-vehicle-insurance", "/commercial-insurance",
     "/health-insurance", "/health-insurance-info", "/about-us", "/blogs",
     "/life-insurance", "/life-insurance-info", "/contact-us", "/rental-agreement",
     "/rental-agreement-form", "/lease-agreement", "/lease-agreement-form",
@@ -185,7 +185,7 @@ const App = () => {
                 <Route path="/two-wheeler-insurance-info" element={<TwoWheeler />} />
                 <Route path="/car-insurance" element={<FourWheeler />} />
                 <Route path="/car-insurance-info" element={<FourWheeler />} />
-                <Route path="/commercial-insurance-instruction" element={<CommercialVehicle />} />
+                <Route path="/commercial-vehicle-insurance" element={<CommercialVehicle />} />
                 <Route path="/commercial-insurance" element={<CommercialVehicle />} />
                 <Route path="/health-insurance" element={<Health />} />
                 <Route path="/health-insurance-info" element={<Health />} />

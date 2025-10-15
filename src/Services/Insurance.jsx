@@ -33,7 +33,7 @@ const InsurancePage = () => {
     {
       name: "Commercial Vehicle",
       image: tempoImage,
-      route: "/commercial-insurance-instruction",
+      route: "/commercial-vehicle-insurance",
     },
     { name: "Health", image: healthImage, route: "/health-insurance" },
     { name: "Life", image: lifeImage, route: "/life-insurance" },

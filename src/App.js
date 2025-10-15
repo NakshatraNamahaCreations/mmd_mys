@@ -79,6 +79,7 @@ import MemsNew from "./Services/msme/MemsNew.jsx";
 
 import PassportLandingPage from "./Services/passport/PassportLandingPage.jsx";
 import AffidavitNew from "./Services/affidavit/AffidavitNew.jsx";
+import PassportAgentinDelhi from "./Services/passport/PassportAgentinDelhi.jsx";
 
 
 
@@ -173,7 +174,7 @@ const App = () => {
         <Route path="/two-wheeler-insurance-info" element={<Layout><TwoWheeler /></Layout>} />
         <Route path="/car-insurance" element={<Layout><FourWheeler /></Layout>} />
         <Route path="/car-insurance-info" element={<Layout><FourWheeler /></Layout>} />
-        <Route path="/commercial-insurance-instruction" element={<Layout><CommercialVehicle /></Layout>} />
+        <Route path="/commercial-vehicle-insurance" element={<Layout><CommercialVehicle /></Layout>} />
         <Route path="/commercial-insurance" element={<Layout><CommercialVehicle /></Layout>} />
         <Route path="/health-insurance" element={<Layout><Health /></Layout>} />
         <Route path="/health-insurance-info" element={<Layout><Health /></Layout>} />
@@ -220,7 +221,7 @@ const App = () => {
         <Route path="/passport-agent-in-mumbai" element={<Layout><PassportAgentinMumbai /></Layout>} />
         <Route path="/passport-agent-in-pune" element={<Layout><PassportAgentinPune /></Layout>} />
         <Route path="/passport-agent-in-mysore" element={<Layout><PassportAgentinMysore /></Layout>} />
-
+        <Route path="/passport-agent-in-delhi" element={<Layout><PassportAgentinDelhi /></Layout>} />
 
         <Route path="/vietnam-tourist-visa-for-indians" element={<Layout><Vietnam /></Layout>}></Route>
         <Route path="/indonesia-tourist-visa-for-indians" element={<Layout><Indonesiavisa /></Layout>}></Route>

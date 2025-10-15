@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import bannerimage from "../../images/passportindianbanner.png";
 import circleIcon from "../../images/circle1.svg";
-// import documentsIcon from "../../images/documents.svg";
-// import TimeIcon from "../../images/Time.svg";
+import documentsIcon from "../../images/documents.svg";
+import TimeIcon from "../../images/Time.svg";
 import Price from "../../images/Price Tag.svg";
 import axios from "axios";
 
 import { Link } from "react-router-dom";
 import "../passport/passport.css"
 
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const relatedServices = [
@@ -21,11 +21,11 @@ const relatedServices = [
     { name: "Affidavits / Annexure", path: "/affidavits" },
 ];
 
-const PassportAgentinMumbai = () => {
+const PassportAgentinDelhi = () => {
     // const serviceRef = useRef(null);
     const navigate = useNavigate();
     //   const { services } = useParams();
-    const [visibleCount] = useState(3);
+    const [visibleCount, setVisibleCount] = useState(3);
     const [openIndex, setOpenIndex] = useState(null);
 
     const [blogs, setBlogs] = useState([]);
@@ -102,7 +102,7 @@ const PassportAgentinMumbai = () => {
 
     const faqs = [
         {
-            question: "How long does it take to get a passport in Mumbai?",
+            question: "Can I apply for a new passport online through Make My Documents in Delhi?",
             // answer: (
             //   <ul style={{ listStyleType: 'disc' }}>
             //     <li>Minimizes the conflicts between a tenant and the owner</li>
@@ -113,49 +113,49 @@ const PassportAgentinMumbai = () => {
             //   </ul>
             // ),
             answer:
-                "For normal processing, it usually takes 25–30 days. Tatkal applications are faster (1–3 days).",
+                "Yes, our passport agent in Delhi assists you throughout the process — from filling the application to scheduling your PSK appointment.",
         },
         {
-            question: "Can I apply for a passport online myself?",
+            question: "Does Make My Documents handle Tatkal passport services in Delhi?",
             answer:
-                "Yes, but many people prefer agent support to avoid form errors and delays.",
+                "Absolutely. As a leading passport agent in Delhi, we ensure fast and accurate Tatkal submissions with minimal delays.",
         },
         {
-            question: "Do I need to visit the Passport Seva Kendra in person?",
-            answer: "Yes, biometric data and document verification require personal appearance.",
+            question: "Can you help if I lost my passport in Delhi?",
+            answer: "Yes. Our Delhi-based team helps you file FIRs and reapply quickly for a replacement passport.",
         },
         {
-            question: "What is the cost of passport application?",
-            answer: "It depends on age, type (normal/tatkal), and number of pages. We guide you on the latest fee structure.",
+            question: "Do you provide correction services for name or address changes?",
+            answer: "Yes, our passport agent in Delhi assists with all correction and reissue cases like name, DOB, or address updates.",
         },
         {
-            question: "What documents are needed for a minor’s passport?",
+            question: "How long does it take to get a passport in Delhi?",
             answer:
-                "Proof of age, address, parent’s passport/ID, and annexures are required. We’ll provide a complete checklist.",
+                "Usually, Normal passports take 15–20 working days, while Tatkal passports take around 5–10 days.",
         },
         {
-            question: "Can I apply for a passport without an Aadhaar card?",
-            answer: "While Aadhaar is preferred, other address proofs like voter ID, bank passbook, etc., are acceptable.",
+            question: "Do minors need separate passport applications in Delhi?",
+            answer: "Yes. We help with minor passport applications, requiring birth certificates and parents’ passport copies.",
         },
         {
-            question: "What if my police verification fails?",
+            question: "Is police verification mandatory in Delhi?",
             answer:
-                " We assist with re-application or re-verification support based on the reason for failure.",
+                "In most cases, yes. Our passport agent in Delhi helps you prepare for verification to avoid any delay.",
         },
         {
-            question: "Do you provide doorstep document pickup in Mumbai?",
+            question: "Can I schedule my PSK appointment anywhere in Delhi?",
             answer:
-                "Yes, in selected locations. Please contact our team for availability.",
+                "Yes, we help book appointments at the nearest PSK — whether it’s Connaught Place, Dwarka, or Janakpuri.",
         },
         {
-            question: "Is Tatkal service available for passport renewal?",
+            question: "What are the documents needed for passport renewal?",
             answer:
-                "Yes, but eligibility depends on past police verification and certain criteria",
+                "You’ll need your old passport, valid ID proof, and address proof — our passport agent in Delhi will guide you through each step.",
         },
         {
-            question: "How can I track my passport status?",
+            question: "Why choose Make My Documents over other agents?",
             answer:
-                "Once your application is submitted, we help you track it using the file number on the official portal.",
+                "Because our passport agent in Delhi offers transparent pricing, expert filing, and on-time delivery — making your passport application effortless.",
         },
     ];
 
@@ -166,150 +166,318 @@ const PassportAgentinMumbai = () => {
 
     return (
         <>
-          <Helmet>
-  {/* Core SEO */}
-  <title>Leading Passport Agent in Mumbai | Trusted Passport Services
+            <Helmet>
+                <title>Passport Agent in Delhi | Apply for Passport Online 
                 </title>
-                <meta name="description" content="Make My Document is a trusted Passport Agent in Mumbai, offering expert services for passport new applications, renewals and replacements. Contact us today."/>
+                <meta name="description" content="Looking for a reliable passport agent in Delhi. Make My Documents helps you apply for a new, renewal and Tatkal passport online. Trusted service across Delhi."/>
+                <meta name="keywords" content="passport, get passport fast, passport application, passport services, passport assistance, hassle-free passport, quick passport, passport team, passport solutions, secure passport, professional passport services, efficient passport application" />
+                <link rel="canonical" href="https://www.makemydocuments.com/passport-agent-in-delhi" />
+                <meta name="rating" CONTENT="General" />
+                <meta name="revisit-after" CONTENT="2 days" />
+                <meta name="robots" content=" ALL, index, follow" />
+                <meta name="distribution" content="Global" />
+                <meta name="rating" content="Safe For All" />
+                <meta name="language" content="English" />
+                <meta http-equiv="window-target" content="_top" />
+                <meta http-equiv="pics-label" content="for all ages" />
+                <meta name="rating" content="general" />
+                <meta content="All, FOLLOW" name="GOOGLEBOTS" />
+                <meta content="All, FOLLOW" name="YAHOOBOTS" />
+                <meta content="All, FOLLOW" name="MSNBOTS" />
+                <meta content="All, FOLLOW" name="BINGBOTS" />
+                <meta content="all" name="Googlebot-Image" />
+                <meta content="all" name="Slurp" />
+                <meta content="all" name="Scooter" />
+                <meta content="ALL" name="WEBCRAWLERS" />
 
-  <link rel="canonical" href="https://www.makemydocuments.com/passport-agent-in-mumbai" />
-  <meta name="robots" content="index, follow" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-QN4189EDG5"></script>
+                <script>
+                    {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QN4189EDG5');
+        `}
+                </script>
 
-  <meta name="keywords" content="passport, get passport fast, passport application, passport services, passport assistance, hassle-free passport, quick passport, passport team, passport solutions, secure passport, professional passport services, efficient passport application" />
-  {/* Open Graph */}
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Passport Agent in Mumbai | Apply Passport Online Help" />
-  <meta property="og:description" content="New passport, renewal, reissue, corrections and PSK appointment booking in Mumbai—accurate forms, quick updates, expert support." />
-  <meta property="og:url" content="https://www.makemydocuments.com/passport-agent-in-mumbai" />
-  <meta property="og:image" content="https://www.makemydocuments.com/images/passport-service-banner.jpg" />
-  <meta property="og:site_name" content="Make My Documents" />
 
-  {/* Twitter */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Passport Agent in Mumbai | Apply Passport Online Help" />
-  <meta name="twitter:description" content="New passport, renewal, reissue and PSK appointment booking in Mumbai with expert guidance." />
-  <meta name="twitter:image" content="https://www.makemydocuments.com/images/passport-service-banner.jpg" />
+                <script>
+                    {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '865961251883214');
+            fbq('track', 'PageView');
+          `}
+                </script>
+                <noscript>
+                    {`<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=865961251883214&ev=PageView&noscript=1" alt="Meta Pixel" />`}
+                </noscript>
 
-  {/* Structured Data: LocalBusiness (update address if your office is in Mumbai) */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Make My Documents",
-      "image": "https://www.makemydocuments.com/logo.png",
-      "@id": "https://www.makemydocuments.com/passport-agent-in-mumbai",
-      "url": "https://www.makemydocuments.com/passport-agent-in-mumbai",
-      "telephone": "+91-9429690973",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "No 344, 2nd Main Rd, Manjunath Nagar, Mookambika Nagar, Dattatreya Nagar, Hosakerehalli",
-        "addressLocality": "Bengaluru",
-        "addressRegion": "Karnataka",
-        "postalCode": "560085",
-        "addressCountry": "IN"
-      },
-      "geo": { "@type": "GeoCoordinates", "latitude": 12.9254359, "longitude": 77.5409616 },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "opens": "10:00",
-          "closes": "17:00"
+                <script>
+                    {`
+            (function(w,d,t,r,u){
+              var f,n,i;w[u]=w[u]||[],f=function(){
+                var o={ti:"56340877", enableAutoSpaTracking: true};
+                o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
+              },
+              n=d.createElement(t),n.src=r,n.async=1,
+              n.onload=n.onreadystatechange=function(){
+                var s=this.readyState;
+                s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
+              },
+              i=d.getElementsByTagName(t)[0];
+              i.parentNode.insertBefore(n,i)
+            })(window,document,"script","//bat.bing.com/bat.js","uetq");
+          `}
+                </script>
+                <script type="application/ld+json">
+                    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Make My Documents",
+        "image": "https://www.makemydocuments.com/logo.png",
+        "@id": "https://www.makemydocuments.com/passport-agent-in-delhi",
+        "url": "https://www.makemydocuments.com/passport-agent-in-delhi",
+        "telephone": "+91-9429690973",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "No 344, 2nd Main Rd, Manjunath Nagar, Mookambika Nagar, Dattatreya Nagar, Hosakerehalli",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "postalCode": "560085",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "12.925435912146988",
+          "longitude": "77.5409615823579"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "17:00"
+          }
+        ],
+        "priceRange": "₹₹",
+        "description": "Passport Agent in Hyderabad | Fast and Reliable passport agent in Hyderabad offering hassle-free passport services, which includes new, renewals and Tatkal.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Passport Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "New Passport Applications"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Passport Renewal"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Lost or Stolen Passport Replacement"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Passport Corrections"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Child Passport Applications"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Name Change on Passport"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Expedited Passport Services"
+              }
+            }
+          ]
         }
-      ],
-      "priceRange": "₹₹",
-      "description": "Passport agent in Mumbai for new applications, renewals, reissue and corrections with PSK appointment booking and file tracking.",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Passport Services",
-        "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Passport Applications" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Passport Renewal / Reissue" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lost or Stolen Passport Replacement" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Passport Corrections (Name/Address/DOB)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Minor/Child Passport Applications" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tatkal (Expedited) Passport Services" } }
-        ]
       }
-    })}
-  </script>
+    `}
+                </script>
 
-  {/* Structured Data: FAQPage */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How long does a passport take in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Normal processing is about 25–30 working days. Tatkal can be 1–3 days after verification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I apply online myself?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, although expert assistance helps avoid errors that cause delays or rejections."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to visit the Passport Seva Kendra?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Biometrics and document verification are completed in person at PSK/POPSK."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What fees apply?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fees vary by age, booklet pages and mode (Normal/Tatkal). We share the latest slab before submission."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if police verification is pending or fails?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We guide on the right proofs and help with follow-ups or re-verification depending on the reason."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Tatkal available for renewals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, subject to eligibility and previous verification status."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you help with minors’ passports?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes—document checklist and consent/annexures are provided for smooth processing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I track my passport file?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We provide the file number and help track it on the official portal until delivery."
-          }
-        }
-      ]
-    })}
-  </script>
-</Helmet>
+                <script type="application/ld+json">
+                    {`
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Can I apply for a new passport online through Make My Documents in Delhi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our passport agent in Delhi assists you throughout the process — from filling the application to scheduling your PSK appointment."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Does Make My Documents handle Tatkal passport services in Delhi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. As a leading passport agent in Delhi, we ensure fast and accurate Tatkal submissions with minimal delays."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can you help if I lost my passport in Delhi?",
+          "acceptedAnswer",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text":"Yes. Our Delhi-based team helps you file FIRs and reapply quickly for a replacement passport."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you provide correction services for name or address changes?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our passport agent in Delhi assists with all correction and reissue cases like name, DOB, or address updates."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How long does it take to get a passport in Delhi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Usually, Normal passports take 15–20 working days, while Tatkal passports take around 5–10 days."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do minors need separate passport applications in Delhi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. We help with minor passport applications, requiring birth certificates and parents’ passport copies."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is police verification mandatory in Delhi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In most cases, yes. Our passport agent in Delhi helps you prepare for verification to avoid any delay."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I schedule my PSK appointment anywhere in Delhi?",
+          "acceptedAnswer",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we help book appointments at the nearest PSK — whether it’s Connaught Place, Dwarka, or Janakpuri."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the documents needed for passport renewal?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You’ll need your old passport, valid ID proof, and address proof — our passport agent in Delhi will guide you through each step."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why choose Make My Documents over other agents?",
+          "acceptedAnswer",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "text": "Because our passport agent in Delhi offers transparent pricing, expert filing, and on-time delivery — making your passport application effortless."
+                  }
+                }
+              ]
+            }
+          `}
+                </script>
+
+                <meta property="og:title" content="Passport Agent in Delhi | Apply for Passport Online " />
+                <meta property="og:description" content="Looking for a reliable passport agent in Delhi. Make My Documents helps you apply for a new, renewal and Tatkal passport online. Trusted service across Delhi." />
+                <meta property="og:url" content="https://www.makemydocuments.com/" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://www.makemydocuments.com/images/passport-service-banner.jpg" />
+                <meta property="og:site_name" content="Make My Documents" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Passport Agent in Delhi | Apply for Passport Online" />
+                <meta name="twitter:description" content="Looking for a reliable passport agent in Delhi. Make My Documents helps you apply for a new, renewal and Tatkal passport online. Trusted service across Delhi." />
+                <meta name="twitter:image" content="https://www.makemydocuments.com/images/passport-service-banner.jpg" />
+                <meta name="twitter:site" content="@makemydocuments" />
+<script>
+{`!function(e,t,n,s,u,a){
+  e.twq||(s=e.twq=function(){
+    s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+  },s.version='1.1',s.queue=[],u=t.createElement(n),
+  u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))
+}(window,document,'script');
+twq('config','onik3');`}
+</script>
+
+<script type="text/javascript">
+{`_linkedin_partner_id = "7447820";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
+</script>
+
+<script type="text/javascript">
+{`(function(l) {
+  if (!l) {
+    window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+    window.lintrk.q=[];
+  }
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript"; b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b, s);
+})(window.lintrk);`}
+</script>
+
+<noscript dangerouslySetInnerHTML={{
+  __html: `<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=7447820&fmt=gif" />`
+}} />
 
 
+            </Helmet>
 
             <div
                 style={{
@@ -331,7 +499,7 @@ const PassportAgentinMumbai = () => {
                             aria-current="page"
                             style={{ fontWeight: "bold", fontSize: '14px' }}
                         >
-                            Passport Agent in Mumbai
+                            Passport Agent in Delhi
                         </li>
                     </ol>
                 </nav>
@@ -366,7 +534,7 @@ const PassportAgentinMumbai = () => {
                                 >
                                     <img
                                         src={bannerimage}
-                                        alt="Passport agent in mumbai banner"
+                                        alt="Hong Kong Visa"
                                         style={{
                                             width: "100%",
                                             height: "auto",
@@ -394,7 +562,7 @@ const PassportAgentinMumbai = () => {
 
                                         }}
                                     >
-                                        Passport Agent in Mumbai
+                                         Passport Agent in Delhi
                                     </h1>
 
                                     {/* Approval Rate Badge */}
@@ -575,11 +743,11 @@ const PassportAgentinMumbai = () => {
                                         padding: "15px",
                                     }}
                                 >
-                                    <h2 style={{ fontSize: "14px", fontWeight: "bold", marginBottom: "8px" }}>
-                                        Passport Agent in Mumbai
+                                    <p style={{ fontSize: "14px", fontWeight: "bold", marginBottom: "8px" }}>
+                                        Passport Agent in Delhi
 
 
-                                    </h2>
+                                    </p>
 
                                     <div
                                         style={{
@@ -613,12 +781,12 @@ const PassportAgentinMumbai = () => {
 
                                             </p>
                                         </div>
-                                        <div>
-                                            {/* <p style={{ margin: 0, fontWeight: "bold", fontSize: "10px", }}>Starting from</p>
+                                        {/* <div>
+                                            <p style={{ margin: 0, fontWeight: "bold", fontSize: "10px", }}>Starting from</p>
                                             <p style={{ margin: 0, color: "#ffc107", fontWeight: "bold", fontSize: "10px", }}>
                                                 ₹2,499/-
-                                            </p> */}
-                                        </div>
+                                            </p>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -635,7 +803,7 @@ const PassportAgentinMumbai = () => {
                                     <div
                                         className="d-none d-lg-block"
                                         style={{
-                                     
+                                          
                                             paddingLeft: "10px",
                                             paddingRight: "10px",
                                             paddingTop: "15px",
@@ -1073,7 +1241,7 @@ const PassportAgentinMumbai = () => {
                                     </div>
                                     <br />
                                       <div className="d-flex align-items-center w-100 flex-wrap mt-5 gap-3  d-none d-lg-block" style={{ marginLeft: '2%' }}>
-
+                                     
                                         {/* Content Section */}
                                         <div style={{ marginTop: '' }}>
                                             <h5 style={{ color: "#007BFF", fontWeight: "bold" }}>Charges</h5>
@@ -1153,7 +1321,7 @@ const PassportAgentinMumbai = () => {
                                         </div>
                                     </div>
                                     <br />
-                                    {/* Client Reviews */}
+                                   
                                     <div
                                         className="col-md-12  d-none d-lg-block"
                                         style={{ padding: "20px", backgroundColor: "#f0f4f8" }}
@@ -1199,7 +1367,7 @@ const PassportAgentinMumbai = () => {
                                                                         marginBottom: "10px",
                                                                         fontSize: "14px",
                                                                     }}
-                                                                >"Make My Documents helped me get my Tatkal passport in just two days! Super smooth experience."
+                                                                > "Applied for my father’s passport — everything was managed online. Very polite and efficient team."
                                                                 </p>
                                                                 <div
                                                                     style={{
@@ -1222,7 +1390,7 @@ const PassportAgentinMumbai = () => {
                                                                             marginRight: "10px",
                                                                         }}
                                                                     >
-                                                                        M.
+                                                                        N
                                                                     </div>
                                                                     <span
                                                                         style={{
@@ -1231,7 +1399,7 @@ const PassportAgentinMumbai = () => {
                                                                             color: "#374151",
                                                                         }}
                                                                     >
-                                                                        Rohit , Andheri East
+                                                                        Nikita Chauhan, Rohini
 
                                                                     </span>
                                                                 </div>
@@ -1256,7 +1424,63 @@ const PassportAgentinMumbai = () => {
                                                                         fontSize: "14px",
                                                                     }}
                                                                 >
-                                                                    "They guided me patiently through every step. Very reliable passport agent in Mumbai."
+                                                                    "Got my passport in just a week! The Make My Documents team in Delhi made everything smooth and easy."
+                                                                </p>
+                                                                <div
+                                                                    style={{
+                                                                        display: "flex",
+                                                                        alignItems: "center",
+                                                                        marginTop: "auto",
+                                                                    }}
+                                                                >
+                                                                    <div
+                                                                        style={{
+                                                                            width: "32px",
+                                                                            height: "32px",
+                                                                            borderRadius: "50%",
+                                                                            backgroundColor: "#E5E7EB",
+                                                                            color: "#fff",
+                                                                            fontWeight: "bold",
+                                                                            display: "flex",
+                                                                            justifyContent: "center",
+                                                                            alignItems: "center",
+                                                                            marginRight: "10px",
+                                                                        }}
+                                                                    >
+                                                                        R
+                                                                    </div>
+                                                                    <span
+                                                                        style={{
+                                                                            fontWeight: "bold",
+                                                                            fontSize: "14px",
+                                                                            color: "#374151",
+                                                                        }}
+                                                                    >
+                                                                           Rohit Mehta, Rajouri Garden
+
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                style={{
+                                                                    width: "30%",
+                                                                    padding: "20px",
+                                                                    backgroundColor: "#fff",
+                                                                    borderRadius: "8px",
+                                                                    boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+                                                                }}
+                                                            >
+                                                                <div style={{ marginBottom: "10px" }}>
+                                                                    <div style={{ color: "#FFAA00" }}>★★★★★</div>
+                                                                </div>
+                                                                <p
+                                                                    style={{
+                                                                        color: "#4B5563",
+                                                                        marginBottom: "10px",
+                                                                        fontSize: "14px",
+                                                                    }}
+                                                                >
+                                                                    “Needed an urgent passport they handled the Tatkal process fast and professionally. Very dependable.”
                                                                 </p>
                                                                 <div
                                                                     style={{
@@ -1288,63 +1512,7 @@ const PassportAgentinMumbai = () => {
                                                                             color: "#374151",
                                                                         }}
                                                                     >
-                                                                        Fatima Colaba
-
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                style={{
-                                                                    width: "30%",
-                                                                    padding: "20px",
-                                                                    backgroundColor: "#fff",
-                                                                    borderRadius: "8px",
-                                                                    boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-                                                                }}
-                                                            >
-                                                                <div style={{ marginBottom: "10px" }}>
-                                                                    <div style={{ color: "#FFAA00" }}>★★★★★</div>
-                                                                </div>
-                                                                <p
-                                                                    style={{
-                                                                        color: "#4B5563",
-                                                                        marginBottom: "10px",
-                                                                        fontSize: "14px",
-                                                                    }}
-                                                                >
-                                                                    "From document verification to appointment booking, everything was handled with clarity."
-                                                                </p>
-                                                                <div
-                                                                    style={{
-                                                                        display: "flex",
-                                                                        alignItems: "center",
-                                                                        marginTop: "auto",
-                                                                    }}
-                                                                >
-                                                                    <div
-                                                                        style={{
-                                                                            width: "32px",
-                                                                            height: "32px",
-                                                                            borderRadius: "50%",
-                                                                            backgroundColor: "#E5E7EB",
-                                                                            color: "#fff",
-                                                                            fontWeight: "bold",
-                                                                            display: "flex",
-                                                                            justifyContent: "center",
-                                                                            alignItems: "center",
-                                                                            marginRight: "10px",
-                                                                        }}
-                                                                    >
-                                                                        J.
-                                                                    </div>
-                                                                    <span
-                                                                        style={{
-                                                                            fontWeight: "bold",
-                                                                            fontSize: "14px",
-                                                                            color: "#374151",
-                                                                        }}
-                                                                    >
-                                                                        Karan , Borivali
+                                                                        Priya Sharma 
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -1372,7 +1540,7 @@ const PassportAgentinMumbai = () => {
                                                                         fontSize: "14px",
                                                                     }}
                                                                 >
-                                                                    "Was worried about my name change reissue, but they made it really easy."
+                                                                   “They guided me through each step and corrected my form errors. Best experience for a first-time applicant.”
                                                                 </p>
                                                                 <div
                                                                     style={{
@@ -1395,7 +1563,7 @@ const PassportAgentinMumbai = () => {
                                                                             marginRight: "10px",
                                                                         }}
                                                                     >
-                                                                        P.
+                                                                        M
                                                                     </div>
                                                                     <span
                                                                         style={{
@@ -1404,8 +1572,7 @@ const PassportAgentinMumbai = () => {
                                                                             color: "#374151",
                                                                         }}
                                                                     >
-                                                                        Sangeeta , Dadar
-
+                                                                      Sahil Kapoor
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -1428,8 +1595,9 @@ const PassportAgentinMumbai = () => {
                                                                         fontSize: "14px",
                                                                     }}
                                                                 >
-                                                                    "Great support even after submission. They kept following up until my passport arrived."
+                                                                   “No hidden charges, clear updates, and genuine help from start to finish. Highly recommended.”
                                                                 </p>
+
                                                                 <div
                                                                     style={{
                                                                         display: "flex",
@@ -1451,7 +1619,7 @@ const PassportAgentinMumbai = () => {
                                                                             marginRight: "10px",
                                                                         }}
                                                                     >
-                                                                        R.
+                                                                        K
                                                                     </div>
                                                                     <span
                                                                         style={{
@@ -1460,7 +1628,7 @@ const PassportAgentinMumbai = () => {
                                                                             color: "#374151",
                                                                         }}
                                                                     >
-                                                                        Harish , Bandra
+                                                                      Karan Malhotra
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -1483,7 +1651,7 @@ const PassportAgentinMumbai = () => {
                                                                         fontSize: "14px",
                                                                     }}
                                                                 >
-                                                                    "Trustworthy and quick service. Highly recommend their team."
+                                                                    “Earlier my application got stuck, but with Make My Documents it went through smoothly. Great support!”
                                                                 </p>
                                                                 <div
                                                                     style={{
@@ -1506,7 +1674,7 @@ const PassportAgentinMumbai = () => {
                                                                             marginRight: "10px",
                                                                         }}
                                                                     >
-                                                                        T.
+
                                                                     </div>
                                                                     <span
                                                                         style={{
@@ -1515,8 +1683,7 @@ const PassportAgentinMumbai = () => {
                                                                             color: "#374151",
                                                                         }}
                                                                     >
-                                                                        Neha , Thane
-
+                                                                        Anita Verma
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -1599,22 +1766,40 @@ const PassportAgentinMumbai = () => {
                                                     <div className="carousel-inner">
                                                         {[
                                                             {
-                                                                name: "Rohit , Andheri East",
-                                                                initial: "M",
+                                                                name: "Rohit Mehta, Rajouri Garden",
+                                                                initial: "N",
                                                                 review:
-                                                                    "Make My Documents helped me get my Tatkal passport in just two days! Super smooth experience.",
+                                                                    "Got my passport in just a week! The Make My Documents team in Delhi made everything smooth and easy",
                                                             },
                                                             {
-                                                                name: "Fatima , Colaba",
-                                                                initial: "S.",
+                                                                name: "Priya Sharma",
+                                                                initial: "R",
                                                                 review:
-                                                                    "They guided me patiently through every step. Very reliable passport agent in Mumbai.",
+                                                                    "Needed an urgent passport — they handled the Tatkal process fast and professionally. Very dependable.",
                                                             },
                                                             {
-                                                                name: "Karan , Borivali",
-                                                                initial: " J.",
+                                                                name: "Sahil Kapoor",
+                                                                initial: "S",
                                                                 review:
-                                                                    "From document verification to appointment booking, everything was handled with clarity.",
+                                                                    "They guided me through each step and corrected my form errors. Best experience for a first-time applicant.",
+                                                            },
+                                                                 {
+                                                                name: "Karan Malhotra",
+                                                                initial: "S",
+                                                                review:
+                                                                    "No hidden charges, clear updates, and genuine help from start to finish. Highly recommended.",
+                                                            },
+                                                              {
+                                                                name: "Anita Verma",
+                                                                initial: "R",
+                                                                review:
+                                                                    "Earlier my application got stuck, but with Make My Documents it went through smoothly. Great support!",
+                                                            },
+                                                              {
+                                                                name: "Nikita Chauhan, Rohini",
+                                                                initial: "K",
+                                                                review:
+                                                                    "Applied for my father’s passport — everything was managed online. Very polite and efficient team.",
                                                             },
                                                         ].map((item, index) => (
                                                             <div
@@ -2080,130 +2265,143 @@ const PassportAgentinMumbai = () => {
                                 width: "80%",
                             }}
                         >
-                          
                             <>
                                 <h2 className="faq-tag-title-h3">
-                                    <strong> Passport Agent in Mumbai
+                                    <strong>Passport Agent in Delhi – Apply Passport Online with Professional Assistance
                                     </strong>
                                 </h2>
                                 <p style={{ textAlign: 'left' }}>
-
-                                    Navigating the passport application process can be overwhelming, but as your trusted Passport Agent in Mumbai, we are here to make it as seamless and efficient as possible. Whether you are applying for the first time or renewing your passport, we provide professional guidance and support at every step. Our expert team ensures a smooth experience, helping you avoid common pitfalls and processing delays. Let us handle the complexities while you focus on your journey ahead.
+                            
+                            In India the process to obtain a passport is usually complicated and frustrating, you have to deal with multiple forms, document verification, and an appointment can be hard to schedule. A passport agent in Delhi, then becomes your best choice to solve the problem. Our expert staff at Make My Documents, one of the most reliable passport agents in Delhi, supports you in every step of your passport application without any hassle from filling up the online form to getting your appointment at the nearest Passport Seva Kendra (PSK).
                                 </p>
+                                <p style={{ textAlign: 'left' }}>
+                                   We know the whole process can make the people stressed and take a lot of their time. To avoid this, our team of passport agent in Delhi work hard to keep the rejections, the delays, and the confusion at bay. It does not matter if it is a new passport, renewal, Tatkal, or reissue, our experts are efficient in doing the whole thing without breaking any rules. Make My Documents with you is the trustworthy
+                                   </p>
+
+                                    <p style={{ textAlign: 'left' }}>
+                                 passport agent in Delhi, you save time, reduce stress, and get your passport without hassle.
+                                   </p>
                                 <br />
 
-                                <h3 style={{ textAlign: 'left', fontSize: '18px' }}>
-                                    <strong>Types of Indian Passports            </strong>
-                                </h3>
-                                <p style={{ textAlign: 'left' }}>
-                                    The Government of India issues different types of passports based on the applicant's status, purpose of travel, and urgency. Each type has a unique color cover and specific eligibility criteria.
-                                </p>
-                                <br />
-                                <h3 style={{ fontSize: '16px', fontWeight: 'bold' }}>Ordinary Passport (Blue Passport)
-                                </h3>
-                                <p style={{ textAlign: 'left' }}>
-                                    This is the most commonly issued passport. It is meant for Indian citizens who travel abroad for <span style={{ fontWeight: 'bold' }}>leisure, business, education, or employment.</span> <br />
-                                    ● <span style={{ fontWeight: 'bold' }}>Validity: </span>10 years for adults (18+), 5 years for minors (below 18) <br />
-                                    ● <span style={{ fontWeight: 'bold' }}>Who can apply:</span> Any eligible Indian citizen
-                                </p>
-                                <h3 style={{ fontSize: '16px', fontWeight: 'bold' }}>Emergency Certificate (One-Way Travel Document)
-                                </h3>
-                                <p style={{ textAlign: 'left' }}>
-                                    Although not a passport in the traditional sense, this document is issued by Indian embassies to Indian citizens abroad who: <br />
-                                    ● Have lost their passport <br />
-                                    ● Have overstayed illegally <br />
-                                    ● Need to return to India urgently
-                                </p>
-                                <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>Passport Types Based on Processing Mode
-                                </h2>
-                                <p style={{ textAlign: 'left' }}>
-                                    In addition to the cover color, Indian passports can be applied through two different processing <br
-                                    />
-                                    <span style={{ fontWeight: 'bold' }}>categories: </span><br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>Normal Passport:</span>Standard processing time; usually delivered in 25–30 working days <br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>Tatkal Passport:</span> For urgent needs; processed faster (within 1–3 working days, subject to verification).
-
-                                </p>
-
-                                <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>Eligibility for Passport Application</h2>
-
-                                <p style={{ textAlign: 'left' }}>
-                                    To apply for an Indian passport, the applicant must:
-                                </p>
-
-
-                                <h3 style={{ fontSize: '16px', fontWeight: 'bold' }}>Official Passport (White Passport)
-                                </h3>
-
-                                <p style={{ textAlign: 'left' }}>
-                                    Diplomatic passports are issued to Indian diplomats and top-level government officials. These passports provide diplomatic privileges and are used for high-level international representation. <br />
-                                    ●  Be an Indian citizen by birth, descent, registration, or naturalization<br />
-                                    ●  Provide valid ID and address proof (like Aadhaar card, Voter ID, PAN, etc.)<br />
-                                    ●  Have no pending criminal cases or court restrictions on international travel.<br />
-                                    ● Be able to submit original documents during verification.
-                                </p>
                                 <h2 style={{ textAlign: 'left', fontSize: '18px' }}>
-                                    <strong> Who Can Apply for a Passport in Mumbai?
-                                    </strong>
+                                    <strong>Our Passport Services in Delhi       </strong>
                                 </h2>
+                                <br />
                                 <p style={{ textAlign: 'left' }}>
-                                    If you are an Indian citizen, you are eligible to apply for a passport. However, the application process can vary based on different factors such as age, nationality, and the reason for travel. Here’s a breakdown:.<br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>First-Time Applicants:</span> Anyone who has never had a passport or has lost their passport can apply as a first-time applicant. <br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>Minor Applicants (Under 18 Years):</span> Children under 18 years of age can apply for a passport, but the application must be submitted by their parents or legal guardians. <br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>Renewals:</span>  If your passport has expired or is about to expire, it’s time to apply for renewal. <br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>Damaged or Lost Passport:</span>  f your passport is damaged or lost, we can assist you with applying for a replacement. <br />
-                                    ●  <span style={{ fontWeight: 'bold' }}>Applicants with a Valid Visa or Long-Term Stay Requirements:</span>  f your passport is damaged or lost, we can assist you with applying for a replacement. <br />
+                                  Make My Documents is a one-stop solution for any passport-related queries where we provide online complete passport consultancy and support. Our passport agent in Delhi not only does your first-time passport application but also manages your renewal in such a way as to make the entire process quick, simple, and stress-free.
+                                  </p>
+                                <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>New Passport Application: </span>The first time applying for a passport is a tangent process with several forms that make it tricky. Our expert passport agent in Delhi will ensure that all the details are correctly filled, documents submitted, and the appointment with your nearest PSK is fixed without any trouble. Our assistance is the reason you can boldly apply for your new passport without fear of getting rejected due to petty errors. Our Delhi-based passport agents ensure that all the norms are strictly followed.
+                                </p>
+                                <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>Passport Renewal: </span>If your passport is expired or will expire shortly, our passport agent in Delhi will show you the way through every step of the renewal process. The process that we take are - verifying the identity and address proofs and scheduling the PSK visit advices to you fully to achieve the goal quickly and efficiently. Working in tandem with the best passport agent in Delhi is the ticket for you to get your passport online renewal done in a short time thus avoiding all sorts of hold-ups and documentation issues.
+                                </p>
+                                <p style={{ textAlign: 'left' }}>
+                                 <span style={{ fontWeight: 'bold' }}>Lost or Stolen Passport: </span>Lost passport is a nightmare for anyone and the stress is doubled if the loss occurs before your travel. Our passport agent in Delhi is fully equipped to handle all the issues that come with a lost passport reissue - right from FIR filing to document submission and reissuing the passport. With our support, you will be able to submit the application correctly and receive new passport in lesser turnaround time.
+                                </p>
+                                <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>Tatkal Passport:</span>In the event you need a passport instantly, our passport agent in Delhi is prepared to assist you in getting it rapidly through the Tatkal scheme. The role of our specialists is to gather your documents, check if you are eligible for the service; efficiently handle your application so that no error or rejection occurs. We can assure you that with the help of our Tatkal passport in Delhi, you will get your passport within 5-10 working days.
+                                </p>
+                                <p style={{ textAlign: 'left' }}>
+                                     <span style={{ fontWeight: 'bold' }}>Damaged Passport: </span> In case your passport is torn, wet, or has faded pages, our passport agent in Delhi will guide you through the reissue process via the damaged passport category. We take care of the procedure by ensuring the submission of the right documents to have a smooth and fast reissue. Our Delhi team is always there to help by checking if your application is without errors and is fully compliant.
+                                </p>
+                                <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>Apply for Passport in Delhi</h2>
+
+                                <p style={{ textAlign: 'left' }}>
+                                  Planning to apply for a passport soon? With the help of our passport agent in Delhi, you can move through the Passport Seva Kendra (PSK) system without confusion or stress. A lot of people who want to get a passport are waiting whose applications are rejected or delayed because those are incomplete and forms of documents. But with our competent help, you can fill in the form confidently and track it without any difficulty.
+                                </p>
+                                  <p style={{ textAlign: 'left' }}>
+                                   <strong>We instruct you for each step:</strong>
                                 </p>
 
-                                <h3 style={{ fontSize: '16px', fontWeight: 'bold' }}>Modes of Indian Passports
-                                </h3>
+
 
                                 <p style={{ textAlign: 'left' }}>
-                                    Depending on urgency and travel needs, the Indian Government offers the following modes of passport services</p>
+                                    ● Choosing a proper passport type – New, Renewal, Reissue, or Tatkal
+                                </p>
+                                 <p style={{ textAlign: 'left' }}>
+                                    ● Preparing, uploading, and uploading the document with accuracy
+                                </p>
+                                 <p style={{ textAlign: 'left' }}>
+                                    ● Making a convenient appointment at a Delhi PSK (Connaught Place, Dwarka, or Janakpuri) closest to you
+                                </p>
+                                 <p style={{ textAlign: 'left' }}>
+                                    ● Checking the application continually until receiving it
+                                </p>
+                                 <p style={{ textAlign: 'left' }}>
+                                    ● If you work with Make My Documents, your passport application will be a stressful experience. Our passport agent in Delhi is the one who assures accuracy, time, and trustworthiness — thus, helping new applicants as well as the urgent Tatkal cases.
+                                </p>
 
-                                ●  <span style={{ fontWeight: 'bold' }}>Normal Passport </span><br />
-                                Standard processing with a delivery timeline of 25–30 days (subject to police verification).
-                                <br />
-                                ●  <span style={{ fontWeight: 'bold' }}>Tatkal Passport</span><br />
-                                For urgent travel. Passport is issued faster, usually within 1–3 days, post document verification.
 
+                                <h2 style={{ textAlign: 'left', fontSize: '18px' }}>
+                                    <strong> How Our Passport Agent in Delhi Works
+                                    </strong>
+                                </h2>
+                           
+                                <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Register Online & Make Payment</strong> Secure your slot with our team.    
+                                </p>
+                                 <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Upload Documents</strong> We verify and prepare them for submission.
+                                </p>
+                                  <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Get Appointment</strong> We schedule the PSK visit at your convenience.
+                                </p>
+                                  <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Visit PSK</strong> Attend biometric verification and submission.
+                                </p>
+                                  <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Passport Delivered</strong> Receive your passport at your doorstep.
+                                </p>
+                           
+                             <h2 style={{ textAlign: 'left', fontSize: '18px' }}>
+                                    <strong> Processing Time:
+                                    </strong>
+                                </h2>
+                                  <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Normal: </strong> 15–20 working days
+                                </p>
+                                  <p style={{ textAlign: 'left' }}>
+                                 ● <strong>Tatkal: </strong> 5–10 working days
+                                </p>
                                 <br />
                                 <h2 style={{ textAlign: 'left', fontSize: '18px' }}>
-                                    <strong> Why Choose Make My Documents for Passport Service? 
+                                    <strong>  Why Choose Make My Documents – Your Trusted Passport Agent in Delhi
                                     </strong>
-                                    
                                 </h2>
-                                <p style={{ textAlign: 'left' }}>
-                                        <span style={{ fontWeight: 'bold' }}> Make My Documents</span>  assists individuals with:</p>
-                                <p style={{ textAlign: 'left' }}>
-                                    Residents of Mumbai and nearby areas who are Indian citizens can apply for various passport services. This inclues:</p>
-                                <p style={{ textAlign: 'left' }}>
-                                    ●  <span style={{ fontWeight: 'bold' }}>Document Preparation</span><br />
-                                    We help arrange and review all required documents like proof of address, identity, DOB, and annexures.
+                                  <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>End-to-End Guidance :</span> We walk you through every step — from form filling to appointment and status tracking. With our expert passport agent in Delhi, there’s no guesswork, just clarity.
                                 </p>
-                                <p style={{ textAlign: 'left' }}>
-                                    ●  <span style={{ fontWeight: 'bold' }}>Form Submission Support</span><br />
-                                    From filling out the online form to uploading documents, we ensure it's done correctly to avoid rejections.
+                                 <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>Error-Free Documentation :</span> Our Delhi team ensures your application meets all official standards. No mismatched names, wrong photos, or missing proofs. This accuracy minimizes rejections when you apply for a passport online.
                                 </p>
-                                <p style={{ textAlign: 'left' }}>
-                                    ●  <span style={{ fontWeight: 'bold' }}>Appointment Booking</span><br />
-                                    We assist in booking your PSK appointment at a convenient date and location near you in Mumbai.
+                                 <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>Fast Turnaround :</span> We prioritize speed — especially for Tatkal cases. With a verified passport agent in Delhi, you can get your passport processed faster and without unnecessary resubmissions.
                                 </p>
-                                <p style={{ textAlign: 'left' }}>
-                                    ●  <span style={{ fontWeight: 'bold' }}>Police Verification Guidance</span><br />
-                                    We prepare you with the right expectations and help you with follow-up if police verification is delayed.
+                                 <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>All Categories Covered :</span> Whether it’s a new, renewed, lost, minor, or damaged passport, our passport agent in Delhi handles it professionally. You won’t need to navigate the government site alone — we handle everything for you.
                                 </p>
-                                <p style={{ textAlign: 'left' }}>
-                                    ●  <span style={{ fontWeight: 'bold' }}>Corrections & Reissues</span><br />
-                                    For changes in name, date of birth, address, or reissues due to loss/damage — we assist with the entire workflow.
+                                 <p style={{ textAlign: 'left' }}>
+                                    <span style={{ fontWeight: 'bold' }}>Transparent & Reliable :</span> We’re trusted across India for clear communication, transparent charges, and professional updates. As a leading passport agent in Delhi, Make My Documents ensures a smooth experience every time.
                                 </p>
-                                <p style={{ textAlign: 'left' }}>
-                                    ●  <span style={{ fontWeight: 'bold' }}>Post-submission Support</span><br />
-                                    Our team follows up until your passport is delivered. We stay in touch for any assistance you may need.
-                                </p>
+
+                                             <h2 style={{ textAlign: 'left', fontSize: '18px' }}>
+                                    <strong> Ready to Get Your Passport in Delhi?
+                                    </strong>
+                                </h2>
+                                <br />
+                                  <p style={{ textAlign: 'left' }}>
+                                    Your passport is your key to the world — don’t let paperwork slow you down. With Make My Documents, the most dependable passport agent in Delhi, you can start your passport journey today. From documentation to doorstep delivery, we make the process easy, fast, and secure.
+                                    </p>
+                                    <p style={{ textAlign: 'left' }}>
+                                    Contact Make My Documents – Your Trusted Passport Agent in Delhi
+ We’re here to help you every step of the way — so you can travel with confidence.
+                                    </p>
+
+
                                 <br />
                             </>
-                              <h4
+                                                        <h4
                                 style={{
                                     textAlign: "center",
                                     fontWeight: "bold",
@@ -2272,6 +2470,7 @@ const PassportAgentinMumbai = () => {
                                 ))}
                             </div>
                             <br></br>
+
                         </div>
 
                         <br />
@@ -2282,4 +2481,4 @@ const PassportAgentinMumbai = () => {
     );
 };
 
-export default PassportAgentinMumbai;
+export default PassportAgentinDelhi;
