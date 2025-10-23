@@ -337,99 +337,97 @@ const PassportAgentinHyderabad = () => {
     `}
                 </script>
 
-                <script type="application/ld+json">
-                    {`
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "How long does passport processing take in Hyderabad?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Normally 7–14 days, while Tatkal processing takes 1–3 working days if all documents are in order."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Which documents are required for a new passport?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You’ll need Aadhaar, Voter ID or rental agreement (address proof), birth certificate (for minors), and photos."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can I apply for a passport without police verification?",
-          "acceptedAnswer",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":"In most cases, police verification is needed. However, Tatkal passports may allow post-verification in certain situations."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is the difference between passport renewal and reissue?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Renewal is for expired passports with no changes; reissue includes changes in name, address, or damaged/lost passports."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is it necessary to go to the Passport Office?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, biometric data and document verification are done at the Passport Seva Kendra. We book the appointment for you."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can I reschedule my appointment after booking?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, up to two times in a year. We can help you reschedule based on availability."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can I get Tatkal for a minor’s passport?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, Tatkal is usually not available for minors or those with incomplete documentation."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you provide support for passport reissue due to damage?",
-          "acceptedAnswer",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we guide you through the FIR, affidavit, and reapplication process for damaged or lost passports"
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you help NRIs or OCI holders?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we help NRIs with their Indian passport renewals and documentation, especially if they are currently residing in India."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How can I contact Make My Documents to get started?",
-          "acceptedAnswer",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "text": "Visit www.makemydocuments.com or call us. Our team will get in touch and walk you through the entire process."
-                  }
-                }
-              ]
-            }
-          `}
-                </script>
+               <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does passport processing take in Hyderabad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Normally 7–14 days, while Tatkal processing takes 1–3 working days if all documents are in order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which documents are required for a new passport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You’ll need Aadhaar, Voter ID or rental agreement (address proof), birth certificate (for minors), and photos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I apply for a passport without police verification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, police verification is needed. However, Tatkal passports may allow post-verification in certain situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between passport renewal and reissue?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Renewal is for expired passports with no changes; reissue includes changes in name, address, or damaged/lost passports."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it necessary to go to the Passport Office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, biometric data and document verification are done at the Passport Seva Kendra. We book the appointment for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I reschedule my appointment after booking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, up to two times in a year. We can help you reschedule based on availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get Tatkal for a minor’s passport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Tatkal is usually not available for minors or those with incomplete documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide support for passport reissue due to damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we guide you through the FIR, affidavit, and reapplication process for damaged or lost passports."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you help NRIs or OCI holders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we help NRIs with their Indian passport renewals and documentation, especially if they are currently residing in India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact Make My Documents to get started?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visit https://www.makemydocuments.com or call us. Our team will get in touch and walk you through the entire process."
+      }
+    }
+  ]
+}
+`}
+</script>
+
 
                 <meta property="og:title" content="Passport Agent in Hyderabad | Fast & Reliable Passport Services" />
                 <meta property="og:description" content="Passport Agent in Hyderabad | Fast and Reliable passport agent in Hyderabad offering hassle-free passport services, which includes new, renewals and Tatkal." />

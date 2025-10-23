@@ -236,202 +236,151 @@ const PassportAgentinDelhi = () => {
             })(window,document,"script","//bat.bing.com/bat.js","uetq");
           `}
                 </script>
-                <script type="application/ld+json">
-                    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Make My Documents",
-        "image": "https://www.makemydocuments.com/logo.png",
-        "@id": "https://www.makemydocuments.com/passport-agent-in-delhi",
-        "url": "https://www.makemydocuments.com/passport-agent-in-delhi",
-        "telephone": "+91-9429690973",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "No 344, 2nd Main Rd, Manjunath Nagar, Mookambika Nagar, Dattatreya Nagar, Hosakerehalli",
-          "addressLocality": "Bengaluru",
-          "addressRegion": "Karnataka",
-          "postalCode": "560085",
-          "addressCountry": "IN"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "12.925435912146988",
-          "longitude": "77.5409615823579"
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday"
-            ],
-            "opens": "10:00",
-            "closes": "17:00"
-          }
-        ],
-        "priceRange": "₹₹",
-        "description": "Passport Agent in Hyderabad | Fast and Reliable passport agent in Hyderabad offering hassle-free passport services, which includes new, renewals and Tatkal.",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Passport Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "New Passport Applications"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Passport Renewal"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Lost or Stolen Passport Replacement"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Passport Corrections"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Child Passport Applications"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Name Change on Passport"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Expedited Passport Services"
-              }
-            }
-          ]
-        }
-      }
-    `}
-                </script>
 
-                <script type="application/ld+json">
-                    {`
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Can I apply for a new passport online through Make My Documents in Delhi?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, our passport agent in Delhi assists you throughout the process — from filling the application to scheduling your PSK appointment."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Does Make My Documents handle Tatkal passport services in Delhi?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. As a leading passport agent in Delhi, we ensure fast and accurate Tatkal submissions with minimal delays."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can you help if I lost my passport in Delhi?",
-          "acceptedAnswer",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":"Yes. Our Delhi-based team helps you file FIRs and reapply quickly for a replacement passport."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you provide correction services for name or address changes?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, our passport agent in Delhi assists with all correction and reissue cases like name, DOB, or address updates."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How long does it take to get a passport in Delhi?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Usually, Normal passports take 15–20 working days, while Tatkal passports take around 5–10 days."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do minors need separate passport applications in Delhi?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. We help with minor passport applications, requiring birth certificates and parents’ passport copies."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is police verification mandatory in Delhi?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In most cases, yes. Our passport agent in Delhi helps you prepare for verification to avoid any delay."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can I schedule my PSK appointment anywhere in Delhi?",
-          "acceptedAnswer",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we help book appointments at the nearest PSK — whether it’s Connaught Place, Dwarka, or Janakpuri."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the documents needed for passport renewal?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You’ll need your old passport, valid ID proof, and address proof — our passport agent in Delhi will guide you through each step."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Why choose Make My Documents over other agents?",
-          "acceptedAnswer",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "text": "Because our passport agent in Delhi offers transparent pricing, expert filing, and on-time delivery — making your passport application effortless."
-                  }
-                }
-              ]
-            }
-          `}
-                </script>
+<script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Make My Documents",
+  "image": "https://www.makemydocuments.com/logo.png",
+  "@id": "https://www.makemydocuments.com/passport-agent-in-delhi",
+  "url": "https://www.makemydocuments.com/passport-agent-in-delhi",
+  "telephone": "+91-9429690973",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No 344, 2nd Main Rd, Manjunath Nagar, Mookambika Nagar, Dattatreya Nagar, Hosakerehalli",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560085",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "12.925435912146988",
+    "longitude": "77.5409615823579"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "10:00",
+    "closes": "17:00"
+  }],
+  "priceRange": "₹₹",
+  "description": "Passport Agent in Delhi | Fast and reliable passport agent in Delhi offering hassle-free passport services, including new, renewals, and Tatkal.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Passport Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"New Passport Applications"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Passport Renewal"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lost or Stolen Passport Replacement"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Passport Corrections"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Child Passport Applications"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Name Change on Passport"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Expedited Passport Services"}}
+    ]
+  }
+}
+`}
+</script>
+
+
+            <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I apply for a new passport online through Make My Documents in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our passport agent in Delhi assists you throughout the process — from filling the application to scheduling your PSK appointment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Make My Documents handle Tatkal passport services in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. As a leading passport agent in Delhi, we ensure fast and accurate Tatkal submissions with minimal delays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you help if I lost my passport in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our Delhi-based team helps you file FIRs and reapply quickly for a replacement passport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide correction services for name or address changes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our passport agent in Delhi assists with all correction and reissue cases like name, DOB, or address updates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get a passport in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, Normal passports take 15–20 working days, while Tatkal passports take around 5–10 days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do minors need separate passport applications in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We help with minor passport applications, requiring birth certificates and parents’ passport copies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is police verification mandatory in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes. Our passport agent in Delhi helps you prepare for verification to avoid any delay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I schedule my PSK appointment anywhere in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we help book appointments at the nearest PSK — whether it’s Connaught Place, Dwarka, or Janakpuri."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the documents needed for passport renewal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You’ll need your old passport, valid ID proof, and address proof — our passport agent in Delhi will guide you through each step."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Make My Documents over other agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because our passport agent in Delhi offers transparent pricing, expert filing, and on-time delivery — making your passport application effortless."
+      }
+    }
+  ]
+}
+`}
+</script>
+
 
                 <meta property="og:title" content="Passport Agent in Delhi | Apply for Passport Online " />
                 <meta property="og:description" content="Looking for a reliable passport agent in Delhi. Make My Documents helps you apply for a new, renewal and Tatkal passport online. Trusted service across Delhi." />
-                <meta property="og:url" content="https://www.makemydocuments.com/" />
+               <meta property="og:url" content="https://www.makemydocuments.com/passport-agent-in-delhi" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://www.makemydocuments.com/images/passport-service-banner.jpg" />
                 <meta property="og:site_name" content="Make My Documents" />
