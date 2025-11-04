@@ -1477,7 +1477,7 @@ const TwoWheeler = () => {
         </title>
         <meta
           name="description"
-          content="Get the best life insurance plans online. Comprehensive coverage, affordable premiums, tax benefits, and financial security for your family. 100% hassle-free and instant process."
+          content="Get the best life insurance plans online with affordable premiums, tax benefits, and financial security for your family. 100% paperless and instant process."
         />
         <meta
           name="keywords"
@@ -1487,6 +1487,7 @@ const TwoWheeler = () => {
           name="author"
           content="https://www.makemydocuments.com/life-insurance"
         />
+        <link rel="canonical" href="https://www.makemydocuments.com/life-insurance" />
         <meta name="rating" content="General" />
         <meta name="revisit-after" content="2 days" />
         <meta name="robots" content="ALL, index, follow" />
@@ -2880,12 +2881,12 @@ const TwoWheeler = () => {
           className="py-0"
           style={{ padding: "0", width: "77%", margin: "0 auto" }}
         >
-          <h3 className="faq-tag-title-h3">
+          <h2 className="faq-tag-title-h3">
             <strong>
               Protect Your Life Insurance with Ease – Secure Your Family’s
               Future
             </strong>
-          </h3>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Life is unpredictable, and while we cannot control the
             uncertainties, we can certainly prepare for them. Life insurance is
@@ -2902,9 +2903,9 @@ const TwoWheeler = () => {
             your needs.
           </p>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Why Life Insurance Matters</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Life insurance is one of the most important financial decisions you
             will ever make. Here’s why:
@@ -2938,9 +2939,9 @@ const TwoWheeler = () => {
             </li>
           </ul>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Documents Required for Life Insurance </strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             When applying for a life insurance policy, you will typically need:
           </p>
@@ -3006,9 +3007,9 @@ const TwoWheeler = () => {
             </li>
           </ul>
 
-          <h5 style={{ textAlign: "left" }}>
+         <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong> Types of Life Insurance</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Life insurance is not one-size-fits-all. Depending on your needs,
             you can choose from:
@@ -3051,9 +3052,9 @@ const TwoWheeler = () => {
             </li>
           </ul>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Tax Benefits of Life Insurance </strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Life insurance not only secures your family’s future but also
             provides attractive tax benefits:
@@ -3083,9 +3084,9 @@ const TwoWheeler = () => {
             tool.
           </p>
              
-  <h5 style={{ textAlign: "left" }}>
+            <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Claim Process in Life Insurance </strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           In the unfortunate event of the policyholder’s death, the nominee can file a claim. The process is simple:  
 	</p>
@@ -3107,9 +3108,9 @@ const TwoWheeler = () => {
 	</p>
 
      
-  <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong> What is Not Covered Under Life Insurance?</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           While life insurance provides broad coverage, certain exclusions apply:
 	</p>
@@ -3128,9 +3129,9 @@ const TwoWheeler = () => {
             <p style={{ textAlign: "left" }}>
           Understanding exclusions ensures that your claim process is smooth and transparent.
 	</p>
-  <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong> Secure Your Family’s Future Today</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           Life insurance is not just about protecting wealth—it’s about protecting dreams. With Make My Documents, the process of buying or renewing life insurance is transparent, quick, and stress-free. From registration to claim support, we’re here at every step to make sure you and your family remain protecte.
 	</p>

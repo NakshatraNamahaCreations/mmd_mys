@@ -282,7 +282,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                           marginRight: "auto",
                         }}
                       >
-                        <h1
+                        <h2
                           style={{
                             fontSize: "36px",
                             fontWeight: "bold",
@@ -290,7 +290,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
                           }}
                         >
                           Protect Your Future with Ease
-                        </h1>
+                        </h2>
       
                         {/* Approval Rate Badge */}
                         <div

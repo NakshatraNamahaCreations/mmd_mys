@@ -1549,7 +1549,7 @@ const TwoWheeler = () => {
         <title>Health Insurance - Buy/Renew Health Policy Online</title>
         <meta
           name="description"
-          content="Get the best health insurance plans instantly. Comprehensive coverage, cashless claims, tax benefits, and instant policy download. 100% online and hassle-free process."
+          content="Get the best health insurance online with cashless hospitals, tax benefits, and instant policy download. Compare, buy, or renew plans easily in minutes."
         />
         <meta
           name="keywords"
@@ -3144,12 +3144,12 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           className="py-0"
           style={{ padding: "0", width: "77%", margin: "0 auto" }}
         >
-          <h3 className="faq-tag-title-h3">
+          <h2 className="faq-tag-title-h3">
             <strong>
               Protect Your Health Insurance with Ease – Simple & Stress-Free
               Applications
             </strong>
-          </h3>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Health is wealth, and protecting your health with the right health
             insurance plan ensures that you and your family are financially
@@ -3166,9 +3166,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             office to another.
           </p>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Why Health Insurance is Essential</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Health insurance is not just an option anymore—it’s a necessity. A
             comprehensive policy acts as a financial shield against unforeseen
@@ -3208,9 +3208,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             right plan ensures that you’re always prepared for medical
             emergencies.
           </p>
-    <h5 style={{ textAlign: "left" }}>
+            <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Documents Required for Health Insurance</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
            To apply for or renew your health insurance, you’ll typically need:
           </p>
@@ -3228,9 +3228,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           <p style={{ textAlign: "left" }}>
            Our team at Make My Document guides you through the process so you don’t miss any required paperwork.
           </p>
-            <h5 style={{ textAlign: "left" }}>
+           <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>How It Works with Make My Documents</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           We’ve built a streamlined process to help you get insured quickly:
           </p>
@@ -3248,9 +3248,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           <li><strong>Make Payment: </strong> Pay securely online.</li>
          <li><strong>Download Your Policy Instantly: </strong> Get your e-policy immediately, ready for use.</li>
         </ul>
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>What Does Health Insurance Cover? </strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           Most health insurance plans typically cover:
 	</p>
@@ -3312,9 +3312,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           Buying your own health insurance ensures continuous coverage, higher sums insured, and protection for your entire family, independent of your job.
 	</p>
 
-    <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong> Types of Health Insurance Claims</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           When you need to use your policy, there are two main ways to make a claim:
 	</p>
@@ -3328,9 +3328,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           <li><strong>Cashless Claim: </strong> Treatment costs are directly settled between the insurance company and the hospital (in a network hospital).</li>
          <li><strong>Reimbursement Claim: </strong> You pay the bills upfront, and the insurer reimburses you after verification.</li>
         </ul>
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Secure Your Health Today </strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
           Medical emergencies can come unannounced—but financial stress shouldn’t. With Make My Document, getting health insurance is simple, transparent, and instant. Compare the best plans, talk to experts, and secure your family’s health in just a few clicks.
 	</p>

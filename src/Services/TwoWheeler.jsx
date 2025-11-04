@@ -1471,7 +1471,7 @@ answer: (
     <>
     <Helmet>
     <title>Two Wheeler Insurance - Buy/Renew Bike Insurance Policy Online</title>
- <meta name="description" content="click here to get two wheeler insurance instantly,comprehensive or thrid party, no paper work, no inspection and instant policy download, complete online process."/>
+ <meta name="description" content="Get instant two-wheeler insurance online — choose comprehensive or third-party coverage with no paperwork, no inspection, and instant policy download in minutes."/>
 <meta name="keywords" content=" two wheeler insurance, bike insurance, long term bike insurance online, long term two wheeler insurance, online motorcycle insurance,
 2 wheeler insurance, bike insurance renewal, scooter insurance, sooty insurance,two wheeler insurance renewal, motorcycle bike insurance, bike insurance online,
 two wheeler insurance online, bike insurance renewal online, how to get bike insurance online, how to apply bike insurance online "/>
@@ -1721,10 +1721,10 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             className="desktop-document mb-5"
            
           >
-            <h4 className="text-document"
+            <h2 className="text-document"
             >
               Documents Required For Two-Wheeler Insurance
-            </h4>
+            </h2>
             <ul  className="text-ul"
               style={{
                 listStyleType: "disc",
@@ -2841,18 +2841,18 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
         className="py-0"
         style={{ padding: "0", width: "77%", margin: "0 auto" }}
       >
-        <h3 className="faq-tag-title-h3">
+        <h2 className="faq-tag-title-h3">
           <strong>Protect Your Two-Wheeler with Ease – Simple & Stress-Free Insurance Services</strong>
-        </h3>
+        </h2>
         <p style={{ textAlign: "left" }}>
           Owning a two-wheeler gives you the freedom to ride anywhere, anytime. But with that freedom comes responsibility—keeping your bike legally protected and financially secure. Two-wheeler insurance is not just a legal requirement in India; it’s your safety net against accidents, theft, damages, and third-party liabilities.
         </p>
 <p style={{ textAlign: "left" }}>
          At Make My Documents, we make two-wheeler insurance applications simple, fast, and hassle-free. With our 100% online services, you can compare policies, get instant quotes, and download your policy—all from the comfort of your home. 
         </p>
-        <h5 style={{ textAlign: "left" }}>
+         <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Documents Required for Two-Wheeler Insurance</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
          To apply or renew your bike insurance, you’ll need:
         </p>
@@ -2871,9 +2871,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
 <p style={{ textAlign: "left" }}>
          That’s it! With these simple documents, our team will help you secure the right policy without confusion or delays.
         </p>
-        <h5 style={{ textAlign: "left" }}>
+         <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>How It Works with Make My Documents</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
         Our process is designed to be transparent, quick, and stress-free:
         </p>
@@ -2894,9 +2894,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
 
 
 
-        <h5 style={{ textAlign: "left" }}>
+         <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Why Buy Two-Wheeler Insurance Online?</strong>
-        </h5>
+        </h2>
 
          <p style={{ textAlign: "left" }}>
         Buying your bike insurance online with Make My Document comes with several benefits:
@@ -2915,9 +2915,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           <li><strong>Instant Policy Download –</strong> Ride worry-free without waiting for documents.</li> 
       
         </ul>
-        <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong> Types of Two-Wheeler Insurance</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
         When choosing an insurance plan, it’s important to know your options:
         </p>
@@ -2935,9 +2935,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
          
         </ul>
 
-           <h5 style={{ textAlign: "left" }}>
+            <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Why Choose to Make My Documents?</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
        There are plenty of agents and websites out there, but here’s why thousands trust Make My Document:
         </p>
@@ -2958,9 +2958,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
        With us, protecting your two-wheeler is easier than ever.
         </p>
 
-        <h5 style={{ textAlign: "left" }}>
+        <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Your Bike Insurance Today</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
        Don’t wait until your policy expires or an unexpected accident occurs. Secure your two-wheeler today with Make My Documents and enjoy stress-free rides knowing you’re protected.
         </p>

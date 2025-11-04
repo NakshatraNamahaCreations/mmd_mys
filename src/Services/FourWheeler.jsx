@@ -3038,9 +3038,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
         className="py-0"
         style={{ padding: "0", width: "77%", margin: "0 auto" }}
       >
-        <h3 className="faq-tag-title-h3">
+        <h2 className="faq-tag-title-h3">
           <strong>Protect Your Four-Wheeler Insurance with Ease</strong>
-        </h3>
+        </h2>
         <p style={{ textAlign: "left" }}>
           Owning a car is more than just convenience—it’s a responsibility. At
           Make My Document, we make protecting your four-wheeler simple, fast,
@@ -3049,9 +3049,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           vehicle with ease.
         </p>
 
-        <h5 style={{ textAlign: "left" }}>
+       <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Why Protect Your Four-Wheeler?</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
           Your car is a valuable asset, and protecting it ensures peace of mind.
           With the right documents and services, you can:
@@ -3070,9 +3070,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           <li>Ensure smooth resale or transfer of ownership</li>
         </ul>
 
-<h5 style={{ textAlign: "left" }}>
+<h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Documents We Help You With</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
           At Make My Document, we assist you in preparing, verifying, and managing all essential four-wheeler documents:
         </p>
@@ -3092,9 +3092,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
         </ul>
 
 
-<h5 style={{ textAlign: "left" }}>
+<h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>How Make My Document Makes It Easy</strong>
-        </h5>
+        </h2>
 
         <ul
           style={{
@@ -3116,18 +3116,18 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
 
 
 
-        <h5 style={{ textAlign: "left" }}>
+        <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Affordable Service Charges</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
           With Make My Document, you don’t have to worry about hidden fees. Our
           transparent pricing ensures you get the best value for reliable
           service.
         </p>
 
-        <h5 style={{ textAlign: "left" }}>
+       <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Why Choose to Make My Documents?</strong>
-        </h5>
+        </h2>
         <ul
           style={{
             textAlign: "left",
@@ -3142,9 +3142,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             Karnataka-focused expertise with nationwide support expanding soon
           </li>
         </ul>
-        <h5 style={{ textAlign: "left" }}>
+        <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Apply Today</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
           Protect your car the smart way with Make My Documents. Start your
           online application today and get complete peace of mind knowing your

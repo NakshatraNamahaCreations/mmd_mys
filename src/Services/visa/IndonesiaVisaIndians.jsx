@@ -162,7 +162,7 @@ const IndonesiaVisaIndians = () => {
                 <title>Indonesia Visa for Indians – Tourist, VOA & e‑Visa Guide</title>
                 <meta
                     name="description"
-                    content="Apply for an Indonesia visa for India with ease. Know the tourist visa process, documents, fees, visa on arrival, and photo guidelines."
+                    content="Apply for Indonesia Tourist Visa online for Indians, paperless process. Get expert support, approval within 5–7 working days and start your journey with ease."
                 />
                 <link
                     rel="canonical"
@@ -170,7 +170,7 @@ const IndonesiaVisaIndians = () => {
                 />
                 <meta
                     name="keywords"
-                    content="Indonesia Visa for Indians, Indonesia Tourist Visa for Indians, Indonesia Visa Requirements for Indian Citizens, Indonesia Visa on Arrival for Indians"
+                    content="Indonesia tourist visa for Indians, Indonesia visa for Indian citizens, Indonesia tourist visa online, Indonesia e visa for Indians, Indonesia tourist visa requirements for Indians, Indonesia visa on arrival for Indians, Indonesia tourist visa fees from India, Indonesia tourist visa processing time, Indonesia travel visa apply online, Indonesia tourist visa 30 days India "
                 />
                 <meta name="rating" CONTENT="General" />
                 <meta name="revisit-after" CONTENT="2 days" />

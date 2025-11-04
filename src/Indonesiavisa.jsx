@@ -174,14 +174,15 @@ const Indonesiavisa = () => {
         <title>
           Indonesia Tourist Visa for Indians - Easy Online Application
         </title>
-        <meta
-          name="description"
-          content="Apply for an Indonesia Tourist Visa for Indians with a simple online process. Get expert guidance and reliable visa approval in 5-7 working days. Start your journey!"
-        />
-        <meta
-          name="keywords"
-          content=""
-        />
+       <meta
+                    name="description"
+                    content="Apply for Indonesia Tourist Visa online for Indians, paperless process. Get expert support, approval within 5–7 working days and start your journey with ease."
+                />
+          
+                <meta
+                    name="keywords"
+                    content="Indonesia tourist visa for Indians, Indonesia visa for Indian citizens, Indonesia tourist visa online, Indonesia e visa for Indians, Indonesia tourist visa requirements for Indians, Indonesia visa on arrival for Indians, Indonesia tourist visa fees from India, Indonesia tourist visa processing time, Indonesia travel visa apply online, Indonesia tourist visa 30 days India "
+                />
         <link
           rel="canonical"
           href="https://www.makemydocuments.com/indonesia-tourist-visa-for-indians"

@@ -183,8 +183,8 @@ const PancardNew = () => {
           <Helmet>
            <title>PAN Card Services Online | Apply New, Update & Correction</title>
        <meta name="description" content="Apply PAN card online easily. Get expert help with new PAN (Form 49A), updates, or corrections. Secure process with guidance and quick PAN application support."/>
-       <meta name="keywords" content="passport, get passport fast, passport application, passport services, passport assistance, hassle-free passport, quick passport, passport team, passport solutions, secure passport, professional passport services, efficient passport application"/>
-       <link rel="canonical" href="https://www.makemydocuments.com/passport" />
+       <meta name="keywords" content="Pan card service, PAN card application online, New PAN card online India, PAN card correction service, PAN card update address online, Instant e-PAN card download, PAN card for NRI India, PAN card verification service, Duplicate PAN card online, PAN card status check by name"/>
+       <link rel="canonical" href="https://www.makemydocuments.com/pan-card" />
        <meta name="rating" CONTENT="General"/>
        <meta name="revisit-after" CONTENT="2 days"/>
        <meta name="robots" content=" ALL, index, follow"/>

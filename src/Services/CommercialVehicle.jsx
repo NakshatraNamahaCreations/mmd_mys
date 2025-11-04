@@ -1533,7 +1533,7 @@ const CommercialVehicle = () => {
         </title>
         <meta
           name="description"
-          content="Protect your commercial vehicles with affordable insurance plans. Comprehensive or third-party coverage, instant online process, no paperwork, and immediate policy download."
+          content="Commercial vehicles Insurance instantly with comprehensive or third-party insurance.affordable, zero paperwork, and quick online policy download within minutes."
         />
         <meta
           name="keywords"
@@ -2971,12 +2971,12 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           className="py-0"
           style={{ padding: "0", width: "77%", margin: "0 auto" }}
         >
-          <h3 className="faq-tag-title-h3">
+          <h2 className="faq-tag-title-h3">
             <strong>
               Protect Your Commercial Vehicle Insurance with Ease – Simple &
               Stress-Free Applications
             </strong>
-          </h3>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Running a business often means relying on commercial
             vehicles—trucks, vans, taxis, buses, or delivery vehicles. These
@@ -2992,9 +2992,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             without wasting time or dealing with complicated paperwork.
           </p>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Why Commercial Vehicle Insurance is Essential</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Unlike private car or bike insurance, commercial vehicle insurance
             is legally mandatory in India for all vehicles used for business
@@ -3040,9 +3040,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             confidently.
           </p>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Documents Required for Commercial Vehicle Insurance</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             To apply for or renew your commercial vehicle insurance, you’ll
             need:
@@ -3064,9 +3064,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             process so nothing is missed, ensuring a quick approval.
           </p>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>How It Works with Make My Documents</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             We believe in keeping things simple and stress-free. Here’s our
             step-by-step process:
@@ -3100,9 +3100,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             </li>
           </ul>
 
-          <h5 style={{ textAlign: "left" }}>
+          <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
             <strong>Types of Commercial Vehicle Insurance</strong>
-          </h5>
+          </h2>
           <p style={{ textAlign: "left" }}>
             Depending on your business and vehicle type, you can choose from:
           </p>
@@ -3132,9 +3132,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           Choosing the right type of insurance ensures your vehicles are
           adequately protected against risks.
         </p>
-        <h5 style={{ textAlign: "left" }}>
+       <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Why Choose to Make My Documents?</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
           With so many agents and websites out there, Make My Documents stands
           apart for its customer-first approach. Here’s why:
@@ -3167,11 +3167,11 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             process for a stress-free experience.
           </li>
         </ul>
-        <h5 style={{ textAlign: "left" }}>
+        <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>
             Benefits of Buying Commercial Vehicle Insurance Online
           </strong>
-        </h5>
+        </h2>
         <ul
           style={{
             textAlign: "left",
@@ -3195,9 +3195,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
             <strong>Hassle-Free Renewals:</strong> Get reminders before expiry and renew instantly.
           </li>
         </ul>
-         <h5 style={{ textAlign: "left" }}>
+         <h2 style={{ textAlign: "left" ,fontSize:"22px"}}>
           <strong>Secure Your Commercial Vehicle Today</strong>
-        </h5>
+        </h2>
         <p style={{ textAlign: "left" }}>
          Your business depends on your vehicles—make sure they are always protected. With Make My Documents, applying for commercial vehicle insurance is fast, easy, and completely online. Get your policy today and ride with peace of mind knowing your business is safeguarded.
         </p>

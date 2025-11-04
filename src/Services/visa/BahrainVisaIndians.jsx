@@ -158,7 +158,7 @@ const BahrainVisaIndians = () => {
                 <title>Bahrain Visa for Indians – Visa & Tourist Visa Assistance</title>
                 <meta
                     name="description"
-                    content="Apply for your Bahrain visa from India with expert help. Fast processing, Visa & embassy routes, document checks, and real-time tracking.100% support guaranteed."
+                    content="Apply for your Bahrain visa online from India with expert guidance. Fast processing, verified documentation, embassy assistance and tracking with full support."
                 />
                 <link rel="canonical" href="https://www.makemydocuments.com/bahrain-visa" />
                 <meta name="keywords" content="Bahrain Visa for Indians, Bahrain visa for Indian citizens, Bahrain tourist visa, Bahrain Visa application, Bahrain visa documents, Bahrain visa status, Bahrain visa fees, Bahrain visa extension, Bahrain visa services in India" />
