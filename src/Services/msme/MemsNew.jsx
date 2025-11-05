@@ -162,7 +162,7 @@ const MemsNew = () => {
            <Helmet>
               <title> MSME Registration Online | Udyam Certificate Application </title>
           <meta name="description" content="Apply MSME certificate online with expert support. Quick Udyam registration process, secure guidance, and instant certificate approval for your business needs."/>
-          <meta name="keywords" content="Dubai tourist visa online, Dubai tourist visa fee India, Dubai tourist visa 30 days single entry, Dubai, tourist visa 60 days multiple entry, Dubai tourist visa requirements Indian passport, Dubai visa on arrival tourist India, Dubai tourist visa process 2025, Cheap Dubai tourist visa apply online, Dubai tourist visa for family stay, Dubai tourist visa extension UAE   "/>
+          <meta name="keywords" content="MSME certificate, apply MSME certificate, MSME registration, MSME certificate online, MSME certificate application, Udyam registration, Udyam certificate, online MSME registration India, MSME application, MSME agents near me, how to apply for MSME certificate, MSME registration form, MSME registration near me, MSME registration portal, documents required for MSME certificate, MSME certificate process, MSME site, new MSME certificate apply, Udyam certificate application, online Udyam registration"/> 
           <link rel="canonical" href="https://www.makemydocuments.com/msme-registration"/>
           <meta name="rating" content="General"/>
           <meta name="revisit-after" content="2 days"/>

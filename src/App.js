@@ -80,6 +80,7 @@ import MemsNew from "./Services/msme/MemsNew.jsx";
 import PassportLandingPage from "./Services/passport/PassportLandingPage.jsx";
 import AffidavitNew from "./Services/affidavit/AffidavitNew.jsx";
 import PassportAgentinDelhi from "./Services/passport/PassportAgentinDelhi.jsx";
+import ScrollToTop from "./ScrollToTop.js";
 
 
 
@@ -156,6 +157,7 @@ const Layout = ({ children }) => {
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         {/* Wrap valid routes inside Layout */}
         <Route path="/" element={<Layout><Home /></Layout>} />

@@ -185,9 +185,9 @@ const DubaiVisa = () => {
     <>
       <Helmet>
         <title>Dubai Tourist Visa for Indians | Fees and Application Process</title>
-        <meta name="description" content="Apply for a Dubai tourist visa for Indians with a simple online process. Get all the details on eligibility, visa types, etc., to plan your trip to Dubai.
-" />
-        <meta name="keywords" content="Apply for a Dubai tourist visa for Indians with a simple online process. Get all the details on eligibility, visa types, etc., to plan your trip to Dubai." />
+        <meta name="description" content="Apply for a Dubai tourist visa for Indians with a simple online process. Get all the details on eligibility, visa types, etc., to plan your trip to Dubai." />
+        
+         <meta name="keywords" content="Dubai tourist visa online, Dubai tourist visa fee India, Dubai tourist visa 30 days single entry, Dubai, tourist visa 60 days multiple entry, Dubai tourist visa requirements Indian passport, Dubai visa on arrival tourist India, Dubai tourist visa process 2025, Cheap Dubai tourist visa apply online, Dubai tourist visa for family stay, Dubai tourist visa extension UAE   "/>
         <link rel="canonical" href="https://www.makemydocuments.com/dubai-tourist-visa-for-indians" />
         {/* <meta name="author" content={currentMeta.canonical} /> */}
         <meta name="rating" content="General" />
