@@ -193,9 +193,9 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
           textAlign: "center",
         }}
       >
-        <h2 className="why-choose-heading" style={{ fontWeight: "bold", marginBottom: "20px" }}>
+        <h1 className="why-choose-heading" style={{ fontWeight: "bold", marginBottom: "20px" }}>
           Why Choose Make My Documents?
-        </h2>
+        </h1>
         <p
           className="why-choose-text"
           style={{

@@ -28,7 +28,7 @@ import SeniorCitizen from "./Services/senior/SeniorCitizen.jsx";
 import Msme from "./Services/msme/Msme.jsx";
 import Food from "./Services/food/Food.jsx";
 import PoliceClearance from "./Services/police/PoliceClearance.jsx";
-import TravelVisa from "./Services/visa/TravelVisa.jsx";
+// import TravelVisa from "./Services/visa/TravelVisa.jsx";
 import Terms from "./Terms.jsx";
 import PrivacyPolicy from "./PrivacyPolicy.jsx";
 import Disclaimer from "./Disclaimer.jsx";
