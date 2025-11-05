@@ -4,7 +4,7 @@ import bannerBg from "./images/HomeBanner1.png";
     import {Helmet} from "react-helmet";
     import { useLayoutEffect } from "react";
     import { Link, useNavigate } from 'react-router-dom';
-    import { ReactComponent as HomeImage } from "./images/homeimage.svg"; 
+    import { ReactComponent as HomeImage } from "./images/homeimage1.svg"; 
     import { ReactComponent as BookImage } from "./images/book.svg"; 
     import { ReactComponent as NewImage1 } from "./images/Insurance.svg"; 
     import { ReactComponent as NewImage2 } from "./images/visa.svg";  
@@ -20,7 +20,7 @@ import bannerBg from "./images/HomeBanner1.png";
     import { ReactComponent as AdditionalImage6 } from "./images/policeclearence.svg"; 
     import { ReactComponent as CircleImage } from "./images/circle.svg";
     import  wave from "./images/wave.png";
-    
+    import paperworkPng from './images/paperwork.avif';
     import oneImage from './images/1.png';
     import twoImage from './images/2.svg';
     import threeImage from './images/3.svg';
@@ -28,9 +28,9 @@ import bannerBg from "./images/HomeBanner1.png";
 
     import girlImage from './images/girl image.jpg';
 import ColorCircle1 from '../src/images/cirle-image.svg';
-import Step1Image from '../src/images/step 1 1.svg'
-import Step2Image from '../src/images/step 2.svg'
-import Step3Image from '../src/images/step3.svg'
+import Step1Image from '../src/images/step1.avif'
+import Step2Image from '../src/images/step2.avif'
+import Step3Image from '../src/images/step3.avif'
 import { ReactComponent as PaytmImage } from "./images/Paytm_logo 1.svg";
 import {ReactComponent as CscImage} from "./images/csc.svg"
 import { ReactComponent as TurtleImage } from "./images/TurtlemintProLogo.svg";
@@ -577,7 +577,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
     <div className="rectangle-background" style={{ height: '1%' }}>
       <div className="rectangle-content">
         <div className="rectangle-text">
-          <h1>Ready for your next destination?</h1>
+          <h2>Ready for your next destination?</h2>
           <p>Leave the visa paperwork to us!</p>
           <a href="/tourist-visa" style={{ textDecoration: 'none' }}>
             <button
@@ -636,11 +636,8 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
               receive your policy in just a matter of days without the stress of
               handling paperwork.
             </p>
-            <img
-              src={require("./images/paperwork.svg").default}
-              alt="Paperwork Icon"
-              className="paperwork-icon"
-            />
+        <img src={paperworkPng} alt="Paperwork" className="paperwork-icon" />
+
           </div>
         </div>
         </Link>
