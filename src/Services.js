@@ -2927,7 +2927,7 @@ const Services = () => {
 
   const handleProceedToPay = async () => {
     const txnBaseAmount = userDetails?.baseAmount || 0;
-    const txnFee = 99;
+    const txnFee = 1;
     const txnAmount = txnBaseAmount + txnFee;
 
     const custId = userDetails?.name
@@ -2945,7 +2945,7 @@ const Services = () => {
         CHANNEL_ID: "WEB",
         TXN_AMOUNT: txnAmount.toString(),
         WEBSITE: "DEFAULT",
-        SERVICE: "Travel visa",
+        SERVICE: "TravelVisa",
         id: leadId, 
         mobilenumber: userDetails.mobile
     };
@@ -3130,7 +3130,7 @@ const Services = () => {
       date: date && date !== "0000-00-00" ? date : new Date().toISOString().split("T")[0],
       registrationNumber: registrationNumber || "",
       insurance_registration_number: registrationNumber || "",
-      paidAmount: "99",
+      paidAmount: "1",
       // PGID: `ORD_${Date.now()}`,
       applying_for: filteredData?.name || "N/A",
       gender: gender || "",
@@ -3144,7 +3144,7 @@ const Services = () => {
           : new Date().toLocaleTimeString("en-US", { hour12: false }),
       comment: "",
       status: "",
-      service: "Travel Visa",
+      service: "TravelVisa",
      
       village: villageTownCity || "",
       state: selectedState || "",
@@ -3173,7 +3173,7 @@ const Services = () => {
           mobilenumber: leadData.mobilenumber || "",
           orderid: leadData.orderId || "",
           applying_for: leadData.applying_for || "N/A",
-          paidAmount: leadData.paidAmount || "₹99",
+          paidAmount: leadData.paidAmount || "₹1",
           // PGID: leadData.PGID,
         });
       } else {
@@ -3400,7 +3400,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
     >
       <img
         src={filteredData.bannerimage} // Dynamically set image based on route
-        alt="Travel Visa"
+        alt="TravelVisa"
         style={{
           width: "100%",
           height: "100%",

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import defultimage from "../src/images/defultsuccessimage.svg";
 import pancardsuccess from "../src/images/pancardsuccess.svg";
 import seniorsuccess from "../src/images/seniorcitizensuccess.svg";
 import { Helmet } from "react-helmet";
 
 const ApplicationStatus = () => {
-  const location = useLocation();
-  const navigate = useNavigate(); // Hook to navigate programmatically
-  const [service, setService] = useState("");
+  const navigate = useNavigate();
+  const { service } = useParams();   // ✅ CLEAN URL PARAM
+
   const [content, setContent] = useState({
     message: "",
     whatsappLink: null,
@@ -16,43 +16,46 @@ const ApplicationStatus = () => {
     image: "",
   });
 
-  useEffect(() => {
-    const queryParams = new URLSearchParams(location.search);
-    const serviceParam = queryParams.get("service");
-    setService(serviceParam); // Update the service state
-  }, [location.search]); // Re-run this effect when location.search changes
 
-  useEffect(() => {
-    // Update content based on service
-    switch (service) {
-      case "Pancard":
-        setContent({
-          message:
-            "We have received your PAN card application. Please upload your documents via WhatsApp for eKYC and eSign to process further.",
-          whatsappLink: "https://wa.me/9980097315",
-          whatsappText: "Upload your documents via WhatsApp",
-          image: pancardsuccess,
-        });
-        break;
-      case "SeniorCitizen":
-        setContent({
-          message:
-            "We have received your Senior Citizen Card application. Please upload your documents via WhatsApp for eKYC and eSign to process further.",
-          whatsappLink: "https://wa.me/9980097315",
-          whatsappText: "Upload your documents via WhatsApp",
-          image: seniorsuccess,
-        });
-        break;
-      default:
-        setContent({
-          message:
-            "We have received your request. One of our consultants will get back to you shortly.",
-          whatsappLink: null,
-          whatsappText: "",
-          image: defultimage,
-        });
-    }
-  }, [service]); // Re-run this effect when the service state changes
+  // useEffect(() => {
+  //   const queryParams = new URLSearchParams(location.search);
+  //   const serviceParam = queryParams.get("service");
+  //   setService(serviceParam);
+  // }, [location.search]); 
+
+useEffect(() => {
+  switch (service) {
+    case "Pancard":
+      setContent({
+        message:
+          "We have received your PAN card application. Please upload your documents via WhatsApp for eKYC and eSign to process further.",
+        whatsappLink: "https://wa.me/9980097315",
+        whatsappText: "Upload your documents via WhatsApp",
+        image: pancardsuccess,
+      });
+      break;
+
+    case "SeniorCitizen":
+      setContent({
+        message:
+          "We have received your Senior Citizen Card application. Please upload your documents via WhatsApp for eKYC and eSign to process further.",
+        whatsappLink: "https://wa.me/9980097315",
+        whatsappText: "Upload your documents via WhatsApp",
+        image: seniorsuccess,
+      });
+      break;
+
+    default:
+      setContent({
+        message:
+          "We have received your request. One of our consultants will get back to you shortly.",
+        whatsappLink: null,
+        whatsappText: "",
+        image: defultimage,
+      });
+  }
+}, [service]);
+
 
   // Function to navigate back to the home page
   const handleBackToHome = () => {
