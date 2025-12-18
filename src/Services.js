@@ -2927,7 +2927,7 @@ const Services = () => {
 
   const handleProceedToPay = async () => {
     const txnBaseAmount = userDetails?.baseAmount || 0;
-    const txnFee = 99;
+    const txnFee = 1;
     const txnAmount = txnBaseAmount + txnFee;
 
     const custId = userDetails?.name
@@ -2945,7 +2945,7 @@ const Services = () => {
         CHANNEL_ID: "WEB",
         TXN_AMOUNT: txnAmount.toString(),
         WEBSITE: "DEFAULT",
-        SERVICE: "Travel visa",
+        SERVICE: "TravelVisa",
         id: leadId, 
         mobilenumber: userDetails.mobile
     };
@@ -3144,7 +3144,7 @@ const Services = () => {
           : new Date().toLocaleTimeString("en-US", { hour12: false }),
       comment: "",
       status: "",
-      service: "Travel Visa",
+      service: "TravelVisa",
      
       village: villageTownCity || "",
       state: selectedState || "",
@@ -3400,7 +3400,7 @@ window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}
     >
       <img
         src={filteredData.bannerimage} // Dynamically set image based on route
-        alt="Travel Visa"
+        alt="TravelVisa"
         style={{
           width: "100%",
           height: "100%",
