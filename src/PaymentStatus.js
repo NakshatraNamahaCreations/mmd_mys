@@ -25,7 +25,7 @@ const ApplicationStatus = () => {
 
 useEffect(() => {
   switch (service) {
-    case "Pancard":
+    case "pancard":
       setContent({
         message:
           "We have received your PAN card application. Please upload your documents via WhatsApp for eKYC and eSign to process further.",
@@ -35,7 +35,7 @@ useEffect(() => {
       });
       break;
 
-    case "SeniorCitizen":
+    case "seniorcitizen":
       setContent({
         message:
           "We have received your Senior Citizen Card application. Please upload your documents via WhatsApp for eKYC and eSign to process further.",
