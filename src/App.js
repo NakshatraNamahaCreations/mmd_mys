@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
   useLocation,
+  
   // Navigate,
   BrowserRouter,
 } from "react-router-dom";
@@ -140,8 +141,11 @@ const Layout = ({ children }) => {
     };
   }, [location.pathname]);
 
-  const noHeaderRoutes = ["/request_success", "/failure", "/404", "*"];
-  const hideHeader = noHeaderRoutes.includes(location.pathname);
+ const hideHeader =
+  location.pathname.startsWith("/request_success") ||
+  location.pathname.startsWith("/failure") ||
+  location.pathname === "/404";
+
 
   return (
     <>
@@ -209,13 +213,20 @@ const App = () => {
         {/* <Route path="/police-verification" element={<Layout><PoliceVerification /></Layout>} /> */}
         <Route path="/policeverification-form" element={<Layout><PoliceVerification /></Layout>} />
         <Route path="/policeverification/proceed-to-pay" element={<Layout><PoliceVerification /></Layout>} />
-        {/* <Route path="/police-clearance-certificate" element={<Layout><PoliceClearance /></Layout>} /> */}
+     
         <Route path="/police-clearance-certificate-form" element={<Layout><PoliceClearance /></Layout>} />
         <Route path="/police-clearance-certificate/proceed-to-pay" element={<Layout><PoliceClearance /></Layout>} />
         {/* <Route path="/visa" element={<Layout><TravelVisa /></Layout>} /> */}
         <Route path="/our_partners" element={<Layout><PartnersPage /></Layout>} />
-        <Route path="/request_success" element={<Layout><PaymentStatus /></Layout>} />
-        <Route path="/failure" element={<Layout><FailurePayment /></Layout>} />
+
+
+
+        <Route path="/request_success/:service" element={<Layout><PaymentStatus /></Layout>} />
+      <Route path="/failure/:service" element={<Layout><FailurePayment /></Layout>} />
+
+
+
+
         <Route path="/passport-agent-in-bangalore" element={<Layout><PassportAgency /></Layout>} />
         <Route path="/passport-agent-in-chennai" element={<Layout><PassportAgentinChennai /></Layout>} />
         <Route path="/passport-agent-in-hyderabad" element={<Layout><PassportAgentinHyderabad /></Layout>} />

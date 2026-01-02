@@ -2927,7 +2927,7 @@ const Services = () => {
 
   const handleProceedToPay = async () => {
     const txnBaseAmount = userDetails?.baseAmount || 0;
-    const txnFee = 1;
+    const txnFee = 99;
     const txnAmount = txnBaseAmount + txnFee;
 
     const custId = userDetails?.name
