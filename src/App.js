@@ -82,6 +82,8 @@ import PassportLandingPage from "./Services/passport/PassportLandingPage.jsx";
 import AffidavitNew from "./Services/affidavit/AffidavitNew.jsx";
 import PassportAgentinDelhi from "./Services/passport/PassportAgentinDelhi.jsx";
 import ScrollToTop from "./ScrollToTop.js";
+import PassportAgentinManglore from "./Services/passport/PassportAgentinManglore.jsx";
+import PassportAgentinHubbali from "./Services/passport/PassportAgentinHubbali.jsx";
 
 
 
@@ -234,6 +236,9 @@ const App = () => {
         <Route path="/passport-agent-in-pune" element={<Layout><PassportAgentinPune /></Layout>} />
         <Route path="/passport-agent-in-mysore" element={<Layout><PassportAgentinMysore /></Layout>} />
         <Route path="/passport-agent-in-delhi" element={<Layout><PassportAgentinDelhi /></Layout>} />
+        <Route path="/passport-agent-in-mangaluru" element={<Layout><PassportAgentinManglore /></Layout>} />
+        <Route path="/passport-agent-in-hubballi-dharwad" element={<Layout><PassportAgentinHubbali /></Layout>} />
+
 
         <Route path="/vietnam-tourist-visa-for-indians" element={<Layout><Vietnam /></Layout>}></Route>
         <Route path="/indonesia-tourist-visa-for-indians" element={<Layout><Indonesiavisa /></Layout>}></Route>
