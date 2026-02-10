@@ -1971,23 +1971,47 @@ const PassportAgentinHubbali = () => {
                     Apply Now
                   </button>
 
-                  {/* <a
-    href="tel:+919429690973"
+                  <div style={{ display: "flex", gap: "12px" }}>
+  <a
+    href="https://wa.me/+919731579731"
     style={{
-      width: "45px",
-      height: "45px",
-      backgroundColor: "#ff9800",
+      width: "50px",
+      height: "50px",
+      borderRadius: "12px",
+      background: "#0ea5e9",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      borderRadius: "8px",
       color: "#fff",
       fontSize: "20px",
       textDecoration: "none",
+
+      boxShadow: "0 6px 15px rgba(0,0,0,0.15)"
+    }}
+  >
+    <i className="fab fa-whatsapp"></i>
+  </a>
+
+  <a
+    href="tel:+919429690973"
+    style={{
+      width: "50px",
+      height: "50px",
+      borderRadius: "12px",
+      background: "#14b8a6",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      color: "#fff",
+      fontSize: "20px",
+      boxShadow: "0 6px 15px rgba(0,0,0,0.15)",
+      textDecoration: "none",
+
     }}
   >
     <i className="fa fa-phone"></i>
-  </a> */}
+  </a>
+</div>
                 </div>
 
 
